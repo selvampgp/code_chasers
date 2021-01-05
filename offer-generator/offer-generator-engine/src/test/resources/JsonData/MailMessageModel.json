@@ -1,0 +1,35 @@
+{
+	"id": null,
+	"subject": "test subject",
+	"body": "test body",
+	"childof": "0",
+	"userid": 345,
+	"adminuserid": 845,
+	"mbFolderId": -4,
+	"threadhasattachment": 0,
+	"attachmentid": "",
+	"isdrafted": "N",
+	"thread": {
+		"id": null,
+		"title": "test title",
+		"messagetype": 2
+	},
+	"mailshareholder": [
+		{
+			"id": null,
+			"sentRecFlag": "",
+			"folderId": -1,
+			"deleted": "N",
+			"deletedFromTrash": "N",
+			"mailmessageId": 1
+		},
+		{
+			"id": null,
+			"sentRecFlag": "",
+			"folderId": -4,
+			"deleted": "N",
+			"deletedFromTrash": "N",
+			"mailmessageId": 1
+		}
+	]
+}

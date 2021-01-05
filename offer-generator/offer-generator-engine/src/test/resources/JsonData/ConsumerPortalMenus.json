@@ -1,0 +1,7 @@
+{
+	"cpmId": 12,
+	"cpmName": "Account Summary",
+	"cpmUrl": "/account/details",
+	"cpmParentId": 0,
+	"cpmActive": "Y"
+}
