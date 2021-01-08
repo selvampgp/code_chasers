@@ -1,0 +1,278 @@
+{
+  "payment": [
+    {
+      "paymentUniqueId": 81,
+      "paymentID": 26078735,
+      "payNumber": null,
+      "paymentDescription": "Payment intialised from Client Tools",
+      "payAmount": 100,
+      "commissionFromFile": null,
+      "paymentDate": "2018-04-26",
+      "paymentDateRef": null,
+      "paymentDateRefFormat": null,
+      "nameonCard": null,
+      "expireyMonth": null,
+      "expireyYear": null,
+      "cvv": null,
+      "cardNumber": null,
+      "checkNumber": null,
+      "bankname": null,
+      "route": null,
+      "bankAccNo": null,
+      "transactionId": null,
+      "payTransactionDate": null,
+      "reqDate": "2018-04-26",
+      "authUser": null,
+      "authDate": null,
+      "userId": {
+        "userId": 879,
+        "username": "premseth",
+        "roleRefference": null,
+        "displayName": null,
+        "password": null,
+        "email": null,
+        "branchId": null,
+        "userCategory": null,
+        "collectorcode": null,
+        "department": null,
+        "lockStatus": null,
+        "forcePasswordChange": null,
+        "active": null,
+        "createdUser": null,
+        "colorCode": null,
+        "profileDP": null,
+        "firstName": null,
+        "lastName": null,
+        "secondName": null,
+        "gender": null,
+        "maritalStatus": null,
+        "suffix": null,
+        "ssn": null,
+        "dob": null,
+        "position": null,
+        "spouseName": null,
+        "schemeCode": null,
+        "ruleId": null,
+        "employmentDate": null,
+        "workStartTime": null,
+        "workEndTime": null,
+        "extensionNo": null,
+        "passwordProfile": null,
+        "createdDate": null,
+        "emailAlerts": null,
+        "remarks": null,
+        "isLockUserOnFailure": null,
+        "employeeId": null,
+        "userRole": null,
+        "dependants": null
+      },
+      "reverseBy": null,
+      "paymentType": {
+        "generalLookupId": 46,
+        "lookupType": "PaymentType",
+        "lookupTypeDescription": "DP",
+        "lookupKey": 254,
+        "lookupValue": "DP",
+        "status": "Y"
+      },
+      "paymentTypeRef": null,
+      "consumerId": {
+        "consumerId": 20033,
+        "consumerNumber": null,
+        "sendLetterFlag": "N",
+        "consumerOverWriteAddress": false
+      },
+      "consumerIdRef": null,
+      "consumerID": 20033,
+      "paymentStatus": "N",
+      "allocationStatus": "N",
+      "autoAllocation": "Y",
+      "entryStatus": "N",
+      "reportStatus": {
+        "generalLookupId": null,
+        "lookupType": null,
+        "lookupTypeDescription": null,
+        "lookupKey": 473,
+        "lookupValue": null,
+        "status": null
+      },
+      "remarks": "Invoice Id : inv2205174 Name : TESTLN36, TESTFN36 - DP Posted By Mahitha Gandhi Payment: 10 . Client has confirmed updated balance amounts with the comment 67876",
+      "paymentFreqType": null,
+      "todayPaymentDate": null,
+      "payFrequencyFirstDay": null,
+      "payFrequencySecondDay": null,
+      "firstPaymentDate": null,
+      "schedulerRunTime": null,
+      "payAmountType": null,
+      "scheduledPayAmount": null,
+      "payerConsumerId": null,
+      "paymentBatchNo": null,
+      "reverseRemarks": null,
+      "salesCommissisonStatus": "N",
+      "representUser": "mahgan",
+      "unitId": null,
+      "sourceType": "CLT",
+      "paymentSourceString": null,
+      "ediLoadDate": null,
+      "recieptRequested": null,
+      "recieptRequestedStr": null,
+      "distributionMethod": null,
+      "overRideStatusCodeRestrictPayment": "Y",
+      "overRidePaymentTypeRestriction": null,
+      "approvalCode": null,
+      "paymentStagingReference": null
+    }
+  ],
+  "paymentTransaction": [
+    {
+      "patId": 127,
+      "paymentId": {
+        "paymentUniqueId": 81,
+        "paymentID": 26078735,
+        "paymentDescription": "Payment intialised from Client Tools",
+        "payAmount": 100,
+        "paymentDate": "2018-04-12",
+        "reqDate": "2018-04-26",
+        "userId": {
+          "userId": 879
+        },
+        "paymentType": {
+          "generalLookupId": 46,
+          "lookupType": "PaymentType",
+          "lookupTypeDescription": "DP",
+          "lookupKey": 254,
+          "lookupValue": "DP",
+          "status": "Y"
+        },
+        "consumerId": {
+          "consumerId": 20033,
+          "sendLetterFlag": "N"
+        },
+        "consumerID": 20033,
+        "paymentStatus": "N",
+        "allocationStatus": "N",
+        "autoAllocation": "Y",
+        "entryStatus": "N",
+        "reportStatus": {
+          "lookupKey": 473
+        },
+        "remarks": "Invoice Id : inv2205174 Name : TESTLN36, TESTFN36 - DP Posted By Mahitha Gandhi Payment: 10 . Client has confirmed updated balance amounts with the comment 67876",
+        "salesCommissisonStatus": "N",
+        "representUser": "mahgan",
+        "sourceType": "CLT",
+        "overRideStatusCodeRestrictPayment": "Y"
+      },
+      "paymentIdRef": 26078735,
+      "clientId": {
+        "clientId": 20695
+      },
+      "clientIds": 20695,
+      "consumer": {
+        "consumerId": 20033
+      },
+      "consumerId": 20033,
+      "accountOpenId": {
+        "accountnumber": 65526,
+        "clientId": 20695,
+        "consumerID": 20033,
+        "unitId": 5,
+        "referredDate": "2010-05-11",
+        "statusCodeRef": "ACH",
+        "statusCodeWithPaymentMade": "N",
+        "clientTrustFormula": 43,
+        "paymentMade": "N",
+        "isAccount": false
+      },
+      "accountId": 65526,
+      "accountUnitId": 5,
+      "reqUser": "manick",
+      "reqDate": "2018-04-26",
+      "collectorNumber": "879",
+      "paymentDate": "2018-04-12",
+      "trustFormulatId": 43,
+      "approvalFlag": "C",
+      "trustConsiderFlag": "Y",
+      "masFlag": "N",
+      "ctVerificatioFLag": "P",
+      "specialTrustAllocation": "N",
+      "accountStatusCode": {
+        "statusCode": "ACH"
+      }
+    }
+  ],
+  "account": [
+    {
+      "accountnumber": 65526,
+      "clientcode": {
+        "clientId": 20695,
+        "trustFormulaId": {
+          "lookupKey": 43
+        },
+        "allocationPriority": {
+          "lookupValue": "1"
+        },
+        "allocationRuleId": 711
+      },
+      "clientId": 20695,
+      "consumerDemographic": {
+        "consumerId": 20033
+      },
+      "consumerID": 20033,
+      "unitId": 5,
+      "serviceStartDate": "2010-02-26",
+      "referredDate": "2010-05-11",
+      "amountReferred": 70102.81,
+      "totalBalance": 66230.69,
+      "principleBalance": 61266.81,
+      "interest": 642,
+      "otherCharges": 2339,
+      "attorneyFee": 1200,
+      "courtCost": 112.88,
+      "agencyCharges": 0,
+      "expectedCommission": 52576.8,
+      "expectedCommissionOnInterest": 329.8,
+      "expectedCommissionOnOtherCharges": 167.5,
+      "commissionOnAccumulatedInterest": 0,
+      "commissionOnAttorneyFees": 74.5,
+      "commissionOnCourtCost": 0,
+      "overPay": 0,
+      "statusCodeRef": "ACH",
+      "accumlatedInterest": 0,
+      "accuredInterest": 0,
+      "paymentMade": "N",
+      "penalty": 670,
+      "commOnPenality": 45.6,
+      "commissionOnPrincipalInclusiveFlag": "N",
+      "commissionOnInterestInclusiveFlag": "N",
+      "commissionOnAccumulatedInterestInclusiveFlag": "N",
+      "commissionOnAttorneyInclusiveFlag": "N",
+      "commissionOnOtherChargesInclusiveFlag": "N",
+      "commissionOnCourtCostInclusiveFlag": "N",
+      "commissionOnPenaltyInclusiveFlag": "N",
+      "isAccount": false,
+      "clientSchemeCodeRef": 44
+    }
+  ],
+  "generalLookup": [
+    {
+      "generalLookupId": 46,
+      "lookupType": "PaymentType",
+      "lookupTypeDescription": "DP",
+      "lookupKey": 254,
+      "lookupValue": "DP",
+      "status": "Y"
+    }
+  ],
+  "systemGlobalSettings": [
+    {
+      "primaryId": 192,
+      "key": "OverPayThreshold",
+      "value": "1",
+      "description": "Threshold value to adjust overpayment",
+      "area": "Payment",
+      "userName": null,
+      "isSecured": "N",
+      "isAllowedToEdit": "N"
+    }
+  ]
+}

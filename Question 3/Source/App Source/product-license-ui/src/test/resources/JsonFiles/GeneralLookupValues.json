@@ -1,0 +1,346 @@
+{
+	"CC": {
+		"generalLookupId": 46,
+		"lookupType": "PaymentType",
+		"lookupTypeDescription": "CC",
+		"lookupKey": 255,
+		"lookupValue": "CC",
+		"status": "Y"
+	},
+	"CH": {
+		"generalLookupId": 46,
+		"lookupType": "PaymentType",
+		"lookupTypeDescription": "CH",
+		"lookupKey": 256,
+		"lookupValue": "CH",
+		"status": "Y"
+	},
+	"Monthly": {
+		"generalLookupId": 58,
+		"lookupType": "paymentFrequency",
+		"lookupTypeDescription": "Monthly Payment",
+		"lookupKey": 293,
+		"lookupValue": "M",
+		"status": "Y"
+	},
+	"account": [
+		{
+			"generalLookupId": 54,
+			"lookupType": "Account",
+			"lookupTypeDescription": "396",
+			"lookupKey": 277,
+			"lookupValue": "Court Cost",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 54,
+			"lookupType": "Account",
+			"lookupTypeDescription": "132",
+			"lookupKey": 278,
+			"lookupValue": "Attorney fees",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 54,
+			"lookupType": "Account",
+			"lookupTypeDescription": "131",
+			"lookupKey": 279,
+			"lookupValue": "Other Charges",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 54,
+			"lookupType": "Account",
+			"lookupTypeDescription": "128",
+			"lookupKey": 280,
+			"lookupValue": "Principal balance",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 54,
+			"lookupType": "Account",
+			"lookupTypeDescription": "129",
+			"lookupKey": 281,
+			"lookupValue": "Referred Interest",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 54,
+			"lookupType": "Account",
+			"lookupTypeDescription": "130",
+			"lookupKey": 389,
+			"lookupValue": "Accumulated and Accrued Interest,Accrued interest",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 54,
+			"lookupType": "Account",
+			"lookupTypeDescription": "521",
+			"lookupKey": 526,
+			"lookupValue": "NSF Charges",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 54,
+			"lookupType": "Account",
+			"lookupTypeDescription": "695",
+			"lookupKey": 693,
+			"lookupValue": "Penality",
+			"status": "Y"
+		}
+	],
+	"PaymentStagingReason": [
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "CM",
+			"lookupKey": 2678,
+			"lookupValue": "Selected consumer  is not available",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "AC",
+			"lookupKey": 2679,
+			"lookupValue": " matched account IN closed TABLE acc#",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "ER",
+			"lookupKey": 2680,
+			"lookupValue": "Consumer remark is available",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "TER",
+			"lookupKey": 2682,
+			"lookupValue": "Transaction Not Matched",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "ARR",
+			"lookupKey": 2745,
+			"lookupValue": "CLIENT account number does NOT exist under correct CLIENT",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "APR",
+			"lookupKey": 2917,
+			"lookupValue": "Account IN payment restricted STATUS code: acc#",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "CPR",
+			"lookupKey": 2918,
+			"lookupValue": "AccountIN payment restricted TYPE IN CLIENT setting: acc#",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "PDV",
+			"lookupKey": 3045,
+			"lookupValue": "Payment date XX/XX/XXXX is outside of normal limits.",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 673,
+			"lookupType": "PaymentStagingReason",
+			"lookupTypeDescription": "MTF",
+			"lookupKey": 3049,
+			"lookupValue": "Multiple transactions found for #match #id, \nplease examine other matched transactions in this file before proceeding.",
+			"status": "Y"
+		}
+	],
+	"Manual_Batch_Posting": {
+		"generalLookupId": 500,
+		"lookupType": "PaymentSource",
+		"lookupTypeDescription": "STA",
+		"lookupKey": 2744,
+		"lookupValue": "Manual Batch Posting",
+		"status": "Y"
+	},
+	"STA": {
+		"generalLookupId": 500,
+		"lookupType": "PaymentSource",
+		"lookupTypeDescription": "STA",
+		"lookupKey": 2744,
+		"lookupValue": "Manual Batch Posting",
+		"status": "Y"
+	},
+	"Direct_Payment": {
+		"generalLookupId": 46,
+		"lookupType": "PaymentType",
+		"lookupTypeDescription": "DP",
+		"lookupKey": 254,
+		"lookupValue": "DP",
+		"status": "Y"
+	},
+	"trpClientFormula": {
+		"lookupId": "10",
+		"lookupKey": 44,
+		"lookupType": "Trust Formula",
+		"lookupTypeDescription": "Trust Formula",
+		"lookupValue": "Gross Remit",
+		"status": "Y"
+	},
+	"trpStatus": {
+		"generalLookupId": 337,
+		"lookupType": "TrustProcessStatus",
+		"lookupTypeDescription": "TrustProcessStatus",
+		"lookupKey": 475,
+		"lookupValue": "Posted",
+		"status": "Y"
+	},
+	"schemeCodeCommissionMethod": [
+		{
+			"generalLookupId": 27,
+			"lookupType": "CommissionMethod",
+			"lookupTypeDescription": "CommissionMethod",
+			"lookupKey": 133,
+			"lookupValue": "Percentage",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "CommissionMethod",
+			"lookupTypeDescription": "CommissionMethod",
+			"lookupKey": 403,
+			"lookupValue": "DOR - DOS",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "CommissionMethod",
+			"lookupTypeDescription": "CommissionMethod",
+			"lookupKey": 404,
+			"lookupValue": "Date Range",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "CommissionMethod",
+			"lookupTypeDescription": "CommissionMethod",
+			"lookupKey": 134,
+			"lookupValue": "Flat",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "CommissionMethod",
+			"lookupTypeDescription": "CommissionMethod",
+			"lookupKey": 135,
+			"lookupValue": "Principal Range",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "CommissionMethod",
+			"lookupTypeDescription": "CommissionMethod",
+			"lookupKey": 1710,
+			"lookupValue": "Status Code",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "CommissionType",
+			"lookupTypeDescription": "CommissionType",
+			"lookupKey": 125,
+			"lookupValue": "Exclusive",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "CommissionType",
+			"lookupTypeDescription": "CommissionType",
+			"lookupKey": 124,
+			"lookupValue": "Inclusive",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "Commission Calculation",
+			"lookupTypeDescription": "Commission Calculation",
+			"lookupKey": 710,
+			"lookupValue": "Calculate Based On Scheme",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 27,
+			"lookupType": "Commission Calculation",
+			"lookupTypeDescription": "Commission Calculation",
+			"lookupKey": 709,
+			"lookupValue": "Consider Given Commission",
+			"status": "Y"
+		}
+	],
+	"ChargeType": [
+		{
+			"generalLookupId": 26,
+			"lookupType": "ChargeType",
+			"lookupTypeDescription": "{\"account\":\"expectedCommission\",\"account_flag\":\"commissionOnPrincipalInclusiveFlag\",\"payment\":\"commision\"}",
+			"lookupKey": 128,
+			"lookupValue": "Principal Balance",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 26,
+			"lookupType": "ChargeType",
+			"lookupTypeDescription": "{\"account\":\"expectedCommissionOnInterest\",\"account_flag\":\"commissionOnInterestInclusiveFlag\",\"payment\":\"commisssionOnInterest\"}",
+			"lookupKey": 129,
+			"lookupValue": "Interest",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 26,
+			"lookupType": "ChargeType",
+			"lookupTypeDescription": "{\"account\":\"commissionOnAccumulatedInterest\",\"account_flag\":\"commissionOnAccumulatedInterestInclusiveFlag\",\"payment\":\"commissionAccumulatedInterest\"}",
+			"lookupKey": 130,
+			"lookupValue": "Accumulated interest,Accrued interest",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 26,
+			"lookupType": "ChargeType",
+			"lookupTypeDescription": "{\"account\":\"expectedCommissionOnOtherCharges\",\"account_flag\":\"commissionOnOtherChargesInclusiveFlag\",\"payment\":\"commOnotherCharges\"}",
+			"lookupKey": 131,
+			"lookupValue": "Other Charges",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 26,
+			"lookupType": "ChargeType",
+			"lookupTypeDescription": "{\"account\":\"commissionOnAttorneyFees\",\"account_flag\":\"commissionOnAttorneyInclusiveFlag\",\"payment\":\"commissionOnAttorneyFees\"}",
+			"lookupKey": 132,
+			"lookupValue": "Attorney",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 26,
+			"lookupType": "ChargeType",
+			"lookupTypeDescription": "{\"account\":\"commissionOnCourtCost\",\"account_flag\":\"commissionOnCourtCostInclusiveFlag\",\"payment\":\"commissionOnCourtCost\"}",
+			"lookupKey": 396,
+			"lookupValue": "Court Cost",
+			"status": "Y"
+		},
+		{
+			"generalLookupId": 26,
+			"lookupType": "ChargeType",
+			"lookupTypeDescription": "{\"account\":\"commOnPenality\",\"account_flag\":\"commissionOnPenaltyInclusiveFlag\",\"payment\":\"commOnPenality\"}",
+			"lookupKey": 695,
+			"lookupValue": "Penalty Charges",
+			"status": "Y"
+		}
+	]
+}

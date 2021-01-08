@@ -1,0 +1,68 @@
+{
+	"invoiceFeeBreakup": [
+		{
+			"ifbId": 286,
+			"invoiceNumber": "273",
+			"invoiceAmount": 20.00,
+			"pmtType": "Check",
+			"invoiceNote": "test",
+			"receiveBy": "Elamaruthu",
+			"reverseFlag": "Y",
+			"adjustedTrustId": null
+		},
+		{
+			"ifbId": 287,
+			"invoiceNumber": "273",
+			"invoiceAmount": 10.00,
+			"pmtType": "Check",
+			"invoiceNote": "test",
+			"receiveBy": "Elamaruthu",
+			"reverseFlag": "Y",
+			"adjustedTrustId": null
+		}
+	],
+	"reversedFeeBreakup": [
+		{
+			"ifbId": 286,
+			"invoiceNumber": "273",
+			"invoiceAmount": 20.00,
+			"pmtType": "Check",
+			"invoiceNote": "test",
+			"receiveBy": "Elamaruthu",
+			"reverseFlag": "N",
+			"adjustedTrustId": null
+		},
+		{
+			"ifbId": 287,
+			"invoiceNumber": "273",
+			"invoiceAmount": 10.00,
+			"pmtType": "Check",
+			"invoiceNote": "test",
+			"receiveBy": "Elamaruthu",
+			"reverseFlag": "N",
+			"adjustedTrustId": null
+		}
+	],
+	"adjustment": [
+		{
+			"ifbId": 381,
+			"invoiceNumber": "491",
+			"invoiceAmount": 19.72,
+			"pmtType": "Adjustment",
+			"invoiceNote": "Amount adjusted in Trust (Trust # : 1339)",
+			"receiveBy": "Elamaruthu",
+			"reverseFlag": "N",
+			"adjustedTrustId": 1339
+		},
+		{
+			"ifbId": 382,
+			"invoiceNumber": "515",
+			"invoiceAmount": 57.14,
+			"pmtType": "Adjustment",
+			"invoiceNote": "Amount adjusted in Trust (Trust # : 1339)",
+			"receiveBy": "Elamaruthu",
+			"reverseFlag": "N",
+			"adjustedTrustId": 1339
+		}
+	]
+}

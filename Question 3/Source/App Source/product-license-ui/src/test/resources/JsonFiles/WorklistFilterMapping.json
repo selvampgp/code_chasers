@@ -1,0 +1,49 @@
+{
+	"WorklistFilterMapping": [
+		{
+			"filter": {
+				"filterId": 410,
+				"filterName": "accountCommissionScheme1",
+				"filterFor": "C",
+				"enableFlag": "Y",
+				"createdBy": null,
+				"createdByRef": 1326,
+				"plainQuery": "aco_status_code = 'ACH' "
+			},
+			"mappingId": "1226",
+			"order": 1,
+			"schemeCodeRef": 1208,
+			"filterRef": 410
+		},
+		{
+			"filter": {
+				"filterId": 412,
+				"filterName": "accountCommissionScheme2",
+				"filterFor": "C",
+				"enableFlag": "Y",
+				"createdBy": null,
+				"createdByRef": 1326,
+				"plainQuery": "aco_status_code = 'AUT' "
+			},
+			"mappingId": "1228",
+			"order": 0,
+			"schemeCodeRef": 1208,
+			"filterRef": 412
+		},
+		{
+			"filter": {
+				"filterId": 411,
+				"filterName": "accountCommissionSchemeWithFilters",
+				"filterFor": "C",
+				"enableFlag": "Y",
+				"createdBy": null,
+				"createdByRef": 1326,
+				"plainQuery": "aco_status_code = 'AUT' "
+			},
+			"mappingId": "1227",
+			"order": 0,
+			"schemeCodeRef": 1209,
+			"filterRef": 411
+		}
+	]
+}

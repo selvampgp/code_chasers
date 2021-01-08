@@ -1,0 +1,169 @@
+{
+	"getReceiveAmount": {
+		"paidAmount": 2076
+	},
+	"insertFromTrust": {
+		"trpTrustid": 1,
+		"trpClientId": {
+			"clientId": 419
+		},
+		"trpClientFormula": {
+			"lookupId": "10",
+			"lookupKey": 44,
+			"lookupType": "Trust Formula",
+			"lookupTypeDescription": "Trust Formula",
+			"lookupValue": "Gross Remit",
+			"status": "Y"
+		},
+		"trpTrustAmount": 100,
+		"trpTrustConsiderDp": 0,
+		"trpTrustConsiderDpBkp": 0,
+		"trpInvoiceNumber": "122",
+		"trpTrustProcessedBy": "Elamaruthu",
+		"trpTrustDate": "2018-02-02",
+		"trpTrustBatchNumber": 10,
+		"isRevTrans": "N",
+		"dpFlag": "N",
+		"trustViewDate": "2018-02-02",
+		"trustComment": "Client # :419 Non-dp (Trust Amt : 100.0, Commission : 10.0 )  Dp ( trust Amt :0.0, Commission : 0.0 ) Final Processed Amt : 100.0 and  Adjustment : -0.0 , Processed Commission : 10.0 and Comm Adjustment : -0.0 and considerDpAdjust : 0.0 ;",
+		"trpPublishFlag": "Y",
+		"trpVerifiedBy": "manick",
+		"trpVerifiedDateTime": "2018-01-18",
+		"overViewStatus": "Y"
+	},
+	"trustReverse": {
+		"tprTrustProcessReverseId": 11,
+		"tprInvoiceNumber": "122",
+		"tprClientId": {
+			"clientId": 419
+		},
+		"tprTrustAmount": 100,
+		"tprTrustBatchNumber": 1,
+		"tprTrustDate": "2018-02-02",
+		"tprTrustId": 1,
+		"dpFlag": "N"
+	},
+	"paymentTransaction": [
+		{
+			"patId": 1,
+			"paymentId": {
+				"paymentID": 1
+			},
+			"clientId": {
+				"clientId": 419
+			},
+			"accountOpenId": {
+				"accountnumber": 1
+			},
+			"accountUnitId": 347,
+			"consumer": {
+				"consumerId": 1
+			},
+			"principalBalance": 9900,
+			"interst": 0,
+			"commision": 10,
+			"commisssionOnInterest": 0,
+			"commOnotherCharges": 0,
+			"commissionAccumulatedInterest": 0,
+			"commissionOnCourt": 0,
+			"commissionAttorney": 0,
+			"commOnPenality": 0,
+			"otherCharges": 0,
+			"principal": 100,
+			"attorneyFee": 0,
+			"courtCost": 0,
+			"accumulatedInterest": 0,
+			"differenceValue": 0,
+			"overPayment": 0,
+			"nsfCharge": 0,
+			"penality": 0,
+			"reqUser": "Elamaruthu",
+			"reqDate": "2017-04-27",
+			"authUser": "Elamaruthu",
+			"authDate": "2017-04-27",
+			"collectorNumber": "1330",
+			"paymentDate": "2017-04-27",
+			"trustBatchNumber": 1,
+			"paymentType": "OT",
+			"trustFormulatId": 44,
+			"ctVerificatioFLag": "N",
+			"approvalFlag": "Y",
+			"trustConsiderFlag": "Y",
+			"balancePriorPayment": 10100,
+			"masFlag": "N",
+			"commisionOnInclusiveFLag": "N",
+			"commisssionOnInterestInclusiveFLag": "N",
+			"commissionOnotherChargesInclusiveFLag": "N",
+			"commissionOnAccumulatedInterestInclusiveFLag": "N",
+			"commissionOnCourtCostInclusiveFLag": "N",
+			"commissionOnAttorneyInclusiveFLag": "N",
+			"commissionOnPenalityInclusiveFLag": "N",
+			"houseFlag": "N",
+			"nsfChargeStatus": "N",
+			"accountStatusCode": {
+				"statusCode": "HTS"
+			}
+		}
+	],
+	"negativeTrustListDP": [
+		{
+			"patId": 1,
+			"principal": 0,
+			"interst": 0,
+			"accumulatedInterest": 0,
+			"otherCharges": 0,
+			"penality": 0,
+			"attorneyFee": 0,
+			"courtCost": 0,
+			"commision": -10,
+			"commisssionOnInterest": 0,
+			"commissionAccumulatedInterest": 0,
+			"commOnotherCharges": 0,
+			"commOnPenality": 0,
+			"commOnAttorney": 0,
+			"commOnCourtCost": 0,
+			"trxRefNo": 1
+		}
+	],
+	"negativeTrustListAPExclusive": [
+		{
+			"patId": 1,
+			"principal": -100,
+			"interst": 0,
+			"accumulatedInterest": 0,
+			"otherCharges": 0,
+			"penality": 0,
+			"attorneyFee": 0,
+			"courtCost": 0,
+			"commision": 0,
+			"commisssionOnInterest": 0,
+			"commissionAccumulatedInterest": 0,
+			"commOnotherCharges": 0,
+			"commOnPenality": 0,
+			"commOnAttorney": 0,
+			"commOnCourtCost": 0,
+			"trxRefNo": 1
+		}
+	],
+	"negativeTrustListAPInclusive": [
+		{
+			"patId": 1,
+			"principal": -100,
+			"interst": 0,
+			"accumulatedInterest": 0,
+			"otherCharges": 0,
+			"penality": 0,
+			"attorneyFee": 0,
+			"courtCost": 0,
+			"commision": 0,
+			"commisssionOnInterest": 0,
+			"commissionAccumulatedInterest": 0,
+			"commOnotherCharges": 0,
+			"commOnPenality": 0,
+			"commOnAttorney": 0,
+			"commOnCourtCost": 0,
+			"trxRefNo": 1
+		}
+	]
+	
+}

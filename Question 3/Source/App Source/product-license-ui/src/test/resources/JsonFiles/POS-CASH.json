@@ -1,0 +1,266 @@
+{
+  "payment": [
+    {
+      "paymentUniqueId": null,
+      "paymentID": 20033,
+      "payNumber": null,
+      "paymentDescription": null,
+      "payAmount": 1500,
+      "commissionFromFile": null,
+      "paymentDate": "2018-04-23",
+      "paymentDateRef": "2018-04-23",
+      "userId": {
+        "userId": 879,
+        "username":"premseth"
+      },
+      "reverseBy": null,
+      "paymentType": {
+        "generalLookupId": 46,
+        "lookupType": "PaymentType",
+        "lookupTypeDescription": "POS-CASH",
+        "lookupKey": 2713,
+        "lookupValue": "POS-CASH",
+        "status": "Y"
+      },
+      "paymentTypeRef": null,
+      "consumerId": {
+        "consumerId": 20033,
+        "consumerNumber": 20033
+      },
+      "consumerIdRef": 20033,
+      "consumerID": 20033,
+      "paymentStatus": null,
+      "allocationStatus": null,
+      "autoAllocation": null,
+      "distributionMethod": "",
+      "overRideStatusCodeRestrictPayment": "N",
+      "overRidePaymentTypeRestriction": "N"
+    }
+  ],
+  "paymentTransaction": [
+    {
+      "paymentId": {
+        "paymentID": 20033,
+        "payAmount": 1200,
+        "paymentDate": "2018-04-23",
+        "userId": {
+          "userId": 879,
+          "username":"premseth"
+        },
+        "paymentType": {
+          "lookupKey": 2713
+        },
+        "consumerId": {
+          "consumerId": 20033
+        },
+        "consumerID": 20033,
+        "distributionMethod": "",
+        "overRideStatusCodeRestrictPayment": "N",
+        "overRidePaymentTypeRestriction": "N"
+      },
+      "paymentIdRef": 20033,
+      "clientId": {},
+      "consumer": {
+        "consumerId": 20033
+      },
+      "consumerId": 20033,
+      "accountOpenId": {
+        "accountnumber": 65525,
+        "clientcode": {
+          "clientId": 20695,
+          "trustFormulaId": {
+            "lookupKey": 43
+          }
+        },
+        "consumerID": 20033,
+        "unitId": 5,
+        "isAccount": false
+      },
+      "accountId": 65525,
+      "accountUnitId": 5,
+      "reqUser": "manick",
+      "reqDate": "2018-04-23",
+      "collectorNumber": "879",
+      "paymentDate": "2018-04-23",
+      "approvalFlag": "N",
+      "trustConsiderFlag": "Y",
+      "masFlag": "N",
+      "ctVerificatioFLag": "N",
+      "specialTrustAllocation": "N"
+    },
+    {
+      "paymentId": {
+        "paymentID": 20033,
+        "payAmount": 1200,
+        "paymentDate": "2018-04-23",
+        "userId": {
+          "userId": 879,
+          "username":"premseth"
+        },
+        "paymentType": {
+          "lookupKey": 2713
+        },
+        "consumerId": {
+          "consumerId": 20033
+        },
+        "consumerID": 20033,
+        "distributionMethod": "",
+        "overRideStatusCodeRestrictPayment": "N",
+        "overRidePaymentTypeRestriction": "N"
+      },
+      "paymentIdRef": 20033,
+      "clientId": {},
+      "consumer": {
+        "consumerId": 20033
+      },
+      "consumerId": 20033,
+      "accountOpenId": {
+        "accountnumber": 65526,
+        "clientcode": {
+          "clientId": 20695,
+          "trustFormulaId": {
+            "lookupKey": 43
+          }
+        },
+        "consumerID": 20033,
+        "unitId": 5,
+        "isAccount": false
+      },
+      "accountId": 65526,
+      "accountUnitId": 5,
+      "reqUser": "manick",
+      "reqDate": "2018-04-23",
+      "collectorNumber": "879",
+      "paymentDate": "2018-04-23",
+      "approvalFlag": "N",
+      "trustConsiderFlag": "Y",
+      "masFlag": "N",
+      "ctVerificatioFLag": "N",
+      "specialTrustAllocation": "N"
+    }
+  ],
+  "account": [
+    {
+      "accountnumber": 65526,
+      "clientcode": {
+        "clientId": 20695,
+        "trustFormulaId": {
+          "lookupKey": 43
+        },
+        "allocationPriority": {
+          "lookupValue": "1"
+        },
+        "allocationRuleId": 711
+      },
+      "clientId": 20695,
+      "consumerDemographic": {
+        "consumerId": 20033
+      },
+      "consumerID": 20033,
+      "unitId": 5,
+      "serviceStartDate": "2010-02-26",
+      "referredDate": "2010-05-11",
+      "amountReferred": 70102.81,
+      "totalBalance": 70020.31,
+      "principleBalance": 64556.81,
+      "interest": 642,
+      "otherCharges": 2339,
+      "attorneyFee": 1200,
+      "courtCost": 612.5,
+      "agencyCharges": 0,
+      "expectedCommission": 52656.8,
+      "expectedCommissionOnInterest": 329.8,
+      "expectedCommissionOnOtherCharges": 167.5,
+      "commissionOnAccumulatedInterest": 0,
+      "commissionOnAttorneyFees": 74.5,
+      "commissionOnCourtCost": 70.55,
+      "overPay": 0,
+      "statusCodeRef": "ACH",
+      "accumlatedInterest": 0,
+      "accuredInterest": 0,
+      "paymentMade": "N",
+      "penalty": 670,
+      "commOnPenality": 45.6,
+      "commissionOnPrincipalInclusiveFlag": "N",
+      "commissionOnInterestInclusiveFlag": "N",
+      "commissionOnAccumulatedInterestInclusiveFlag": "N",
+      "commissionOnAttorneyInclusiveFlag": "N",
+      "commissionOnOtherChargesInclusiveFlag": "N",
+      "commissionOnCourtCostInclusiveFlag": "N",
+      "commissionOnPenaltyInclusiveFlag": "N",
+      "isAccount": false,
+      "clientSchemeCodeRef": 44
+    },
+    {
+      "accountnumber": 65525,
+      "clientcode": {
+        "clientId": 20695,
+        "trustFormulaId": {
+          "lookupKey": 43
+        },
+        "allocationPriority": {
+          "lookupValue": "1"
+        },
+        "allocationRuleId": 711
+      },
+      "clientId": 20695,
+      "consumerDemographic": {
+        "consumerId": 20033
+      },
+      "consumerID": 20033,
+      "unitId": 5,
+      "serviceStartDate": "2017-03-28",
+      "referredDate": "2017-10-09",
+      "amountReferred": 69882.67,
+      "totalBalance": 69882.67,
+      "principleBalance": 64562.67,
+      "interest": 667,
+      "otherCharges": 2417,
+      "attorneyFee": 1155,
+      "courtCost": 530,
+      "agencyCharges": 0,
+      "expectedCommission": 52656.8,
+      "expectedCommissionOnInterest": 329.8,
+      "expectedCommissionOnOtherCharges": 167.5,
+      "commissionOnAccumulatedInterest": 0,
+      "commissionOnAttorneyFees": 74.5,
+      "commissionOnCourtCost": 95.3,
+      "statusCodeRef": "ACH",
+      "accumlatedInterest": 0,
+      "accuredInterest": 0,
+      "penalty": 551,
+      "commOnPenality": 45.6,
+      "commissionOnPrincipalInclusiveFlag": "N",
+      "commissionOnInterestInclusiveFlag": "N",
+      "commissionOnAccumulatedInterestInclusiveFlag": "N",
+      "commissionOnAttorneyInclusiveFlag": "N",
+      "commissionOnOtherChargesInclusiveFlag": "N",
+      "commissionOnCourtCostInclusiveFlag": "N",
+      "commissionOnPenaltyInclusiveFlag": "N",
+      "isAccount": false,
+      "clientSchemeCodeRef": 44
+    }
+  ],
+  "generalLookup": [
+    {
+      "generalLookupId": 46,
+      "lookupType": "PaymentType",
+      "lookupTypeDescription": "POS-CASH",
+      "lookupKey": 2713,
+      "lookupValue": "POS-CASH",
+      "status": "Y"
+    }
+  ],
+  "systemGlobalSettings": [
+    {
+      "primaryId": 192,
+      "key": "OverPayThreshold",
+      "value": "1",
+      "description": "Threshold value to adjust overpayment",
+      "area": "Payment",
+      "userName": null,
+      "isSecured": "N",
+      "isAllowedToEdit": "N"
+    }
+  ]
+}

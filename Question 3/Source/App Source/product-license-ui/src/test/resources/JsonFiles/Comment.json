@@ -1,0 +1,26 @@
+{
+  "paymentReversalComment": {
+    "commtid": 635550,
+    "conscode": {
+      "consumerId": 20022
+    },
+    "commntcode": "SYS",
+    "commntdesc": " Reversal from Consumer: $200.0, Account Ids # [65482], Remarks:test",
+    "collcode": {
+      "userId": 879
+    },
+    "timestam": "2018-05-04"
+  },
+  "paymentSchedulerComment": {
+    "commtid": null,
+    "conscode": {
+      "consumerId": 20024,
+      "consumerOverWriteAddress": false
+    },
+    "commntcode": "SYS",
+    "commntdesc": "Autopay plan created as ACH $98275.2 starting from 05/09/2018 with 2 iteration until Paid In Full , Transaction Ref ID: #4047, card number : N , routing number : 000000001, bank name : N , Schedule ID: #N for Account ID(s): [65489]",
+    "collcode": {
+      "userId": 1326
+    }
+  }
+}

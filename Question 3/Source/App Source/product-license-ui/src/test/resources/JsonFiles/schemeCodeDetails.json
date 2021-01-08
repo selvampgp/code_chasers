@@ -1,0 +1,3073 @@
+{
+	"schemeCode": [
+		{
+			"schemeDetailCode": 15,
+			"schemeCode": 3,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commissionOnAccumulatedInterest\",\"account_flag\":\"commissionOnAccumulatedInterestInclusiveFlag\",\"payment\":\"commissionAccumulatedInterest\"}",
+				"lookupKey": 130,
+				"lookupValue": "Accumulated interest,Accrued interest",
+				"status": "Y"
+			},
+			"chargeTypeValue": 130,
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 124,
+				"lookupValue": "Inclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 124,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 23.67,
+			"clientRemittance": 76.33,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 16,
+			"schemeCode": 3,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommission\",\"account_flag\":\"commissionOnPrincipalInclusiveFlag\",\"payment\":\"commision\"}",
+				"lookupKey": 128,
+				"lookupValue": "Principal Balance",
+				"status": "Y"
+			},
+			"chargeTypeValue": 128,
+			"chargeTypeValueString": 128,
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 124,
+				"lookupValue": "Inclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 124,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 25.34,
+			"clientRemittance": 74.66,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 17,
+			"schemeCode": 3,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commOnPenality\",\"account_flag\":\"commissionOnPenaltyInclusiveFlag\",\"payment\":\"commOnPenality\"}",
+				"lookupKey": 695,
+				"lookupValue": "Penalty Charges",
+				"status": "Y"
+			},
+			"chargeTypeValue": 695,
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 124,
+				"lookupValue": "Inclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 124,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 15,
+			"clientRemittance": 85,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 18,
+			"schemeCode": 3,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommissionOnInterest\",\"account_flag\":\"commissionOnInterestInclusiveFlag\",\"payment\":\"commisssionOnInterest\"}",
+				"lookupKey": 129,
+				"lookupValue": "Interest",
+				"status": "Y"
+			},
+			"chargeTypeValue": 129,
+			"chargeTypeValueString": "129",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 124,
+				"lookupValue": "Inclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 124,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 20,
+			"clientRemittance": 80,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 19,
+			"schemeCode": 3,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommissionOnOtherCharges\",\"account_flag\":\"commissionOnOtherChargesInclusiveFlag\",\"payment\":\"commOnotherCharges\"}",
+				"lookupKey": 131,
+				"lookupValue": "Other Charges",
+				"status": "Y"
+			},
+			"chargeTypeValue": 131,
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 124,
+				"lookupValue": "Inclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 124,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 22.87,
+			"clientRemittance": 77.13,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 20,
+			"schemeCode": 3,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commissionOnAttorneyFees\",\"account_flag\":\"commissionOnAttorneyInclusiveFlag\",\"payment\":\"commissionOnAttorneyFees\"}",
+				"lookupKey": 132,
+				"lookupValue": "Attorney",
+				"status": "Y"
+			},
+			"chargeTypeValue": 132,
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 124,
+				"lookupValue": "Inclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 124,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 23,
+			"clientRemittance": 77,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 21,
+			"schemeCode": 3,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommissionOnOtherCharges\",\"account_flag\":\"commissionOnOtherChargesInclusiveFlag\",\"payment\":\"commOnotherCharges\"}",
+				"lookupKey": 131,
+				"lookupValue": "Other Charges",
+				"status": "Y"
+			},
+			"chargeTypeValue": 396,
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 124,
+				"lookupValue": "Inclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 124,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 18,
+			"clientRemittance": 82,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 330,
+			"schemeCode": 44,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commOnPenality\",\"account_flag\":\"commissionOnPenaltyInclusiveFlag\",\"payment\":\"commOnPenality\"}",
+				"lookupKey": 695,
+				"lookupValue": "Penalty Charges",
+				"status": "Y"
+			},
+			"chargeTypeValue": 695,
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 20,
+			"clientRemittance": 80,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 331,
+			"schemeCode": 44,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommissionOnInterest\",\"account_flag\":\"commissionOnInterestInclusiveFlag\",\"payment\":\"commisssionOnInterest\"}",
+				"lookupKey": 129,
+				"lookupValue": "Interest",
+				"status": "Y"
+			},
+			"chargeTypeValue": 129,
+			"chargeTypeValueString": "129",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 20,
+			"clientRemittance": 80,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 332,
+			"schemeCode": 44,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommissionOnOtherCharges\",\"account_flag\":\"commissionOnOtherChargesInclusiveFlag\",\"payment\":\"commOnotherCharges\"}",
+				"lookupKey": 131,
+				"lookupValue": "Other Charges",
+				"status": "Y"
+			},
+			"chargeTypeValue": 131,
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 30,
+			"clientRemittance": 70,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 333,
+			"schemeCode": 44,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commissionOnCourtCost\",\"account_flag\":\"commissionOnCourtCostInclusiveFlag\",\"payment\":\"commissionOnCourtCost\"}",
+				"lookupKey": 396,
+				"lookupValue": "Court Cost",
+				"status": "Y"
+			},
+			"chargeTypeValue": 396,
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 30,
+			"clientRemittance": 70,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 334,
+			"schemeCode": 44,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commissionOnAttorneyFees\",\"account_flag\":\"commissionOnAttorneyInclusiveFlag\",\"payment\":\"commissionOnAttorneyFees\"}",
+				"lookupKey": 132,
+				"lookupValue": "Attorney",
+				"status": "Y"
+			},
+			"chargeTypeValue": 132,
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 40,
+			"clientRemittance": 60,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 335,
+			"schemeCode": 44,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommission\",\"account_flag\":\"commissionOnPrincipalInclusiveFlag\",\"payment\":\"commision\"}",
+				"lookupKey": 128,
+				"lookupValue": "Principal Balance",
+				"status": "Y"
+			},
+			"chargeTypeValue": 128,
+			"chargeTypeValueString": 128,
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 40,
+			"clientRemittance": 60,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 336,
+			"schemeCode": 44,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commissionOnAccumulatedInterest\",\"account_flag\":\"commissionOnAccumulatedInterestInclusiveFlag\",\"payment\":\"commissionAccumulatedInterest\"}",
+				"lookupKey": 130,
+				"lookupValue": "Accumulated interest,Accrued interest",
+				"status": "Y"
+			},
+			"chargeTypeValue": 130,
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 50,
+			"clientRemittance": 50,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 337,
+			"schemeCode": 45,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commOnPenality\",\"account_flag\":\"commissionOnPenaltyInclusiveFlag\",\"payment\":\"commOnPenality\"}",
+				"lookupKey": 695,
+				"lookupValue": "Penalty Charges",
+				"status": "Y"
+			},
+			"chargeTypeValue": 695,
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 29.87,
+			"clientRemittance": 70.13,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 338,
+			"schemeCode": 45,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommissionOnInterest\",\"account_flag\":\"commissionOnInterestInclusiveFlag\",\"payment\":\"commisssionOnInterest\"}",
+				"lookupKey": 129,
+				"lookupValue": "Interest",
+				"status": "Y"
+			},
+			"chargeTypeValue": 129,
+			"chargeTypeValueString": "129",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 29.87,
+			"clientRemittance": 70.13,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 339,
+			"schemeCode": 45,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommissionOnOtherCharges\",\"account_flag\":\"commissionOnOtherChargesInclusiveFlag\",\"payment\":\"commOnotherCharges\"}",
+				"lookupKey": 131,
+				"lookupValue": "Other Charges",
+				"status": "Y"
+			},
+			"chargeTypeValue": 131,
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 29.87,
+			"clientRemittance": 70.13,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 340,
+			"schemeCode": 45,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commissionOnCourtCost\",\"account_flag\":\"commissionOnCourtCostInclusiveFlag\",\"payment\":\"commissionOnCourtCost\"}",
+				"lookupKey": 396,
+				"lookupValue": "Court Cost",
+				"status": "Y"
+			},
+			"chargeTypeValue": 396,
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 29.87,
+			"clientRemittance": 70.13,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 341,
+			"schemeCode": 45,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commissionOnAttorneyFees\",\"account_flag\":\"commissionOnAttorneyInclusiveFlag\",\"payment\":\"commissionOnAttorneyFees\"}",
+				"lookupKey": 132,
+				"lookupValue": "Attorney",
+				"status": "Y"
+			},
+			"chargeTypeValue": 132,
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 29.87,
+			"clientRemittance": 70.13,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 342,
+			"schemeCode": 45,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"expectedCommission\",\"account_flag\":\"commissionOnPrincipalInclusiveFlag\",\"payment\":\"commision\"}",
+				"lookupKey": 128,
+				"lookupValue": "Principal Balance",
+				"status": "Y"
+			},
+			"chargeTypeValue": 128,
+			"chargeTypeValueString": 128,
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 29.87,
+			"clientRemittance": 70.13,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"schemeDetailCode": 343,
+			"schemeCode": 45,
+			"filter": null,
+			"filterRef": null,
+			"serviceType": {
+				"generalLookupId": 15,
+				"lookupType": "Service Type",
+				"lookupTypeDescription": "Service Type",
+				"lookupKey": 87,
+				"lookupValue": "Full Collect",
+				"status": "Y"
+			},
+			"chargeType": {
+				"generalLookupId": 26,
+				"lookupType": "ChargeType",
+				"lookupTypeDescription": "{\"account\":\"commissionOnAccumulatedInterest\",\"account_flag\":\"commissionOnAccumulatedInterestInclusiveFlag\",\"payment\":\"commissionAccumulatedInterest\"}",
+				"lookupKey": 130,
+				"lookupValue": "Accumulated interest,Accrued interest",
+				"status": "Y"
+			},
+			"chargeTypeValue": 130,
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"generalLookupId": 27,
+				"lookupType": "CommissionMethod",
+				"lookupTypeDescription": "CommissionMethod",
+				"lookupKey": 133,
+				"lookupValue": "Percentage",
+				"status": "Y"
+			},
+			"csdBasedOnStatusCode": null,
+			"commissionType": {
+				"generalLookupId": 24,
+				"lookupType": "CommissionType",
+				"lookupTypeDescription": "CommissionType",
+				"lookupKey": 125,
+				"lookupValue": "Exclusive",
+				"status": "Y"
+			},
+			"commissionTypeValue": 125,
+			"from": null,
+			"to": null,
+			"rangeOrder": 0,
+			"agencyCommission": 29.87,
+			"clientRemittance": 70.13,
+			"minimum": 0,
+			"allocationPriority": null,
+			"fromDate": null,
+			"toDate": null,
+			"salesDescription": null,
+			"priority": 1,
+			"wlOrder": null,
+			"priorityOrder": false
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19616",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 128
+			},
+			"chargeTypeValueString": 128,
+			"commissionMethod": {
+				"lookupKey": "133"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "29.87",
+			"clientRemittance": "70.13",
+			"salesDescription": null,
+			"minimum": "120",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19614",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 129
+			},
+			"chargeTypeValueString": "129",
+			"commissionMethod": {
+				"lookupKey": "134"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "30.00",
+			"clientRemittance": "70.00",
+			"salesDescription": null,
+			"minimum": "102",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19612",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 130
+			},
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "15000",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "15.36",
+			"clientRemittance": "84.64",
+			"salesDescription": null,
+			"minimum": "60",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19618",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 130
+			},
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "15001",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "13.59",
+			"clientRemittance": "86.41",
+			"salesDescription": null,
+			"minimum": "62.59",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19615",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "70",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.89",
+			"clientRemittance": "89.11",
+			"salesDescription": null,
+			"minimum": "72.95",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19608",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "71",
+			"to": "150",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "9.94",
+			"clientRemittance": "90.06",
+			"salesDescription": null,
+			"minimum": "42.66",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19609",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "151",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "9.58",
+			"clientRemittance": "90.42",
+			"salesDescription": null,
+			"minimum": "72.16",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19620",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "150",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "15.00",
+			"clientRemittance": "85.00",
+			"salesDescription": null,
+			"minimum": "53.26",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19619",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "151",
+			"to": "250",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "14.00",
+			"clientRemittance": "86.00",
+			"salesDescription": null,
+			"minimum": "12.36",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19621",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "251",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "13",
+			"clientRemittance": "87",
+			"salesDescription": null,
+			"minimum": "63.24",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19607",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": "1710"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": null,
+			"to": null,
+			"csdBasedOnStatusCode": "ACH",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "20.00",
+			"clientRemittance": "80.00",
+			"salesDescription": null,
+			"minimum": "0",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19610",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": "1710"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": null,
+			"to": null,
+			"csdBasedOnStatusCode": "AUT",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "22.00",
+			"clientRemittance": "78.00",
+			"salesDescription": null,
+			"minimum": "28.36",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19613",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": 133
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": null,
+			"to": null,
+			"csdBasedOnStatusCode": "default",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 3,
+			"agencyCommission": "15",
+			"clientRemittance": "85",
+			"salesDescription": null,
+			"minimum": "0",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19611",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "100",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.29",
+			"clientRemittance": "89.71",
+			"salesDescription": null,
+			"minimum": "52.36",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": null,
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "101",
+			"to": "250",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "9.22",
+			"clientRemittance": "90.78",
+			"salesDescription": null,
+			"minimum": "25.64",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19617",
+			"schemeCode": 1208,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "251",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "8.26",
+			"clientRemittance": "91.74",
+			"salesDescription": null,
+			"minimum": "33.32",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19630",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 128
+			},
+			"chargeTypeValueString": 128,
+			"commissionMethod": {
+				"lookupKey": "133"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "29.87",
+			"clientRemittance": "70.13",
+			"salesDescription": null,
+			"minimum": "89.43",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19631",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 129
+			},
+			"chargeTypeValueString": "129",
+			"commissionMethod": {
+				"lookupKey": "134"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "30.00",
+			"clientRemittance": "70.00",
+			"salesDescription": null,
+			"minimum": "23.65",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19632",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 130
+			},
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "0",
+			"to": "15000",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "15.36",
+			"clientRemittance": "84.64",
+			"salesDescription": null,
+			"minimum": "49.57",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19633",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 130
+			},
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "15001",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "13.59",
+			"clientRemittance": "86.41",
+			"salesDescription": null,
+			"minimum": "33.26",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19634",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "0",
+			"to": "70",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.89",
+			"clientRemittance": "89.11",
+			"salesDescription": null,
+			"minimum": "77.12",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19635",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "71",
+			"to": "150",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "9.94",
+			"clientRemittance": "90.06",
+			"salesDescription": null,
+			"minimum": "36.25",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19636",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "151",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "9.58",
+			"clientRemittance": "90.42",
+			"salesDescription": null,
+			"minimum": "34.19",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19637",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "0",
+			"to": "150",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "15.00",
+			"clientRemittance": "85.00",
+			"salesDescription": null,
+			"minimum": "88",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19638",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "151",
+			"to": "250",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "14.00",
+			"clientRemittance": "86.00",
+			"salesDescription": null,
+			"minimum": "120",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19639",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "251",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "13",
+			"clientRemittance": "87",
+			"salesDescription": null,
+			"minimum": "130",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19640",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": "1710"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": null,
+			"to": null,
+			"csdBasedOnStatusCode": "ACH",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "20.00",
+			"clientRemittance": "80.00",
+			"salesDescription": null,
+			"minimum": "0",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19641",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": "1710"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": null,
+			"to": null,
+			"csdBasedOnStatusCode": "AUT",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "22.00",
+			"clientRemittance": "78.00",
+			"salesDescription": null,
+			"minimum": "150",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19642",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": 133
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": null,
+			"to": null,
+			"csdBasedOnStatusCode": "default",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 3,
+			"agencyCommission": "15",
+			"clientRemittance": "85",
+			"salesDescription": null,
+			"minimum": "0",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19643",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "0",
+			"to": "100",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.29",
+			"clientRemittance": "89.71",
+			"salesDescription": null,
+			"minimum": "120",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": null,
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "101",
+			"to": "250",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "9.22",
+			"clientRemittance": "90.78",
+			"salesDescription": null,
+			"minimum": "82.36",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19644",
+			"schemeCode": 1209,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "251",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "8.26",
+			"clientRemittance": "91.74",
+			"salesDescription": null,
+			"minimum": "22.48",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19643",
+			"schemeCode": null,
+			"chargeType": {
+				"lookupKey": 128
+			},
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "12503",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "20.36",
+			"clientRemittance": "79.64",
+			"salesDescription": "79.64",
+			"minimum": "140",
+			"priority": 19643,
+			"filter": {
+				"filterRef": "410"
+			},
+			"filterRef": 1226
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19644",
+			"schemeCode": null,
+			"chargeType": {
+				"lookupKey": 128
+			},
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "12504",
+			"to": "75000",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "18.35",
+			"clientRemittance": "81.65",
+			"salesDescription": "81.65",
+			"minimum": "140",
+			"priority": 19644,
+			"filter": {
+				"filterRef": "410"
+			},
+			"filterRef": 1226
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19645",
+			"schemeCode": null,
+			"chargeType": {
+				"lookupKey": "129"
+			},
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "1",
+			"to": "10",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.50",
+			"clientRemittance": "89.50",
+			"salesDescription": "89.50",
+			"minimum": "60",
+			"priority": 19645,
+			"filter": {
+				"filterRef": "410"
+			},
+			"filterRef": 1226
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19646",
+			"schemeCode": null,
+			"chargeType": {
+				"lookupKey": 128
+			},
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": null,
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 0,
+			"agencyCommission": "18.67",
+			"clientRemittance": "81.33",
+			"minimum": "140",
+			"priority": 19646,
+			"filter": {
+				"filterRef": "411"
+			},
+			"filterRef": 1227,
+			"csdBasedOnStatusCode": "AUT"
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19647",
+			"schemeCode": null,
+			"chargeType": {
+				"lookupKey": 128
+			},
+			"commissionMethod": {
+				"lookupKey": "134"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "14.67",
+			"clientRemittance": "85.33",
+			"salesDescription": "85.33",
+			"minimum": "250",
+			"priority": 19647,
+			"filter": {
+				"filterRef": "412"
+			},
+			"filterRef": 1228
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19700",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 128
+			},
+			"chargeTypeValueString": 128,
+			"commissionMethod": {
+				"lookupKey": "133"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "29.87",
+			"clientRemittance": "70.13",
+			"salesDescription": null,
+			"minimum": "120",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19701",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 129
+			},
+			"chargeTypeValueString": "129",
+			"commissionMethod": {
+				"lookupKey": "134"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "30.00",
+			"clientRemittance": "70.00",
+			"salesDescription": null,
+			"minimum": "102",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19702",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 130
+			},
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "15000",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "15.36",
+			"clientRemittance": "84.64",
+			"salesDescription": null,
+			"minimum": "60",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19703",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 130
+			},
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "15001",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "13.59",
+			"clientRemittance": "86.41",
+			"salesDescription": null,
+			"minimum": "62.59",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19730",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "70",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.89",
+			"clientRemittance": "89.11",
+			"salesDescription": null,
+			"minimum": "72.95",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19704",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "71",
+			"to": "150",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "9.94",
+			"clientRemittance": "90.06",
+			"salesDescription": null,
+			"minimum": "42.66",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19705",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "151",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "9.58",
+			"clientRemittance": "90.42",
+			"salesDescription": null,
+			"minimum": "72.16",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19706",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "150",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "15.00",
+			"clientRemittance": "85.00",
+			"salesDescription": null,
+			"minimum": "53.26",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19707",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "151",
+			"to": "250",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "14.00",
+			"clientRemittance": "86.00",
+			"salesDescription": null,
+			"minimum": "12.36",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19708",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "251",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "13",
+			"clientRemittance": "87",
+			"salesDescription": null,
+			"minimum": "63.24",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19709",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": "1710"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": null,
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "20.00",
+			"clientRemittance": "80.00",
+			"salesDescription": null,
+			"minimum": "0",
+			"priority": 1,
+			"csdBasedOnStatusCode": "ACH"
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19710",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": "1710"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": null,
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "22.00",
+			"clientRemittance": "78.00",
+			"salesDescription": null,
+			"minimum": "28.36",
+			"priority": 2,
+			"csdBasedOnStatusCode": "AUT"
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19711",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": 133
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": null,
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 3,
+			"agencyCommission": "15",
+			"clientRemittance": "85",
+			"salesDescription": null,
+			"minimum": "0",
+			"priority": 3,
+			"csdBasedOnStatusCode": "default"
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19712",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "0",
+			"to": "100",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.29",
+			"clientRemittance": "89.71",
+			"salesDescription": null,
+			"minimum": "52.36",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": 19713,
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "101",
+			"to": "250",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "9.22",
+			"clientRemittance": "90.78",
+			"salesDescription": null,
+			"minimum": "25.64",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19714",
+			"schemeCode": 1211,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "124"
+			},
+			"from": "251",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "8.26",
+			"clientRemittance": "91.74",
+			"salesDescription": null,
+			"minimum": "33.32",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19715",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 128
+			},
+			"chargeTypeValueString": 128,
+			"commissionMethod": {
+				"lookupKey": "133"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "29.87",
+			"clientRemittance": "70.13",
+			"salesDescription": null,
+			"minimum": "89.43",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19716",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 129
+			},
+			"chargeTypeValueString": "129",
+			"commissionMethod": {
+				"lookupKey": "134"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "",
+			"to": "",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": "0",
+			"agencyCommission": "30.00",
+			"clientRemittance": "70.00",
+			"salesDescription": null,
+			"minimum": "23.65",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19717",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 130
+			},
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "0",
+			"to": "15000",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "15.36",
+			"clientRemittance": "84.64",
+			"salesDescription": null,
+			"minimum": "49.57",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19718",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 130
+			},
+			"chargeTypeValueString": "130",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "15001",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "13.59",
+			"clientRemittance": "86.41",
+			"salesDescription": null,
+			"minimum": "33.26",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19719",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "0",
+			"to": "70",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.89",
+			"clientRemittance": "89.11",
+			"salesDescription": null,
+			"minimum": "77.12",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19720",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "71",
+			"to": "150",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "9.94",
+			"clientRemittance": "90.06",
+			"salesDescription": null,
+			"minimum": "36.25",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19721",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 131
+			},
+			"chargeTypeValueString": "131",
+			"commissionMethod": {
+				"lookupKey": "403"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "151",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "9.58",
+			"clientRemittance": "90.42",
+			"salesDescription": null,
+			"minimum": "34.19",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19722",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "0",
+			"to": "150",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "15.00",
+			"clientRemittance": "85.00",
+			"salesDescription": null,
+			"minimum": "88",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19723",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "151",
+			"to": "250",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "14.00",
+			"clientRemittance": "86.00",
+			"salesDescription": null,
+			"minimum": "120",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19724",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 132
+			},
+			"chargeTypeValueString": "132",
+			"commissionMethod": {
+				"lookupKey": "404"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "251",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "13",
+			"clientRemittance": "87",
+			"salesDescription": null,
+			"minimum": "130",
+			"priority": 3
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19725",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": "1710"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": null,
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "20.00",
+			"clientRemittance": "80.00",
+			"salesDescription": null,
+			"minimum": "0",
+			"priority": 1,
+			"csdBasedOnStatusCode": "ACH"
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19726",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": "1710"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": null,
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "22.00",
+			"clientRemittance": "78.00",
+			"salesDescription": null,
+			"minimum": "150",
+			"priority": 2,
+			"csdBasedOnStatusCode": "AUT"
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19727",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 695
+			},
+			"chargeTypeValueString": "695",
+			"commissionMethod": {
+				"lookupKey": 133
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": null,
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 3,
+			"agencyCommission": "15",
+			"clientRemittance": "85",
+			"salesDescription": null,
+			"minimum": "0",
+			"priority": 3,
+			"csdBasedOnStatusCode": "default"
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19728",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "0",
+			"to": "100",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "10.29",
+			"clientRemittance": "89.71",
+			"salesDescription": null,
+			"minimum": "120",
+			"priority": 1
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": null,
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "101",
+			"to": "250",
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 2,
+			"agencyCommission": "9.22",
+			"clientRemittance": "90.78",
+			"salesDescription": null,
+			"minimum": "82.36",
+			"priority": 2
+		},
+		{
+			"serviceType": {
+				"lookupKey": 87
+			},
+			"schemeDetailCode": "19729",
+			"schemeCode": 1212,
+			"chargeType": {
+				"lookupKey": 396
+			},
+			"chargeTypeValueString": "396",
+			"commissionMethod": {
+				"lookupKey": "135"
+			},
+			"commissionType": {
+				"lookupKey": "125"
+			},
+			"from": "251",
+			"to": null,
+			"fromDate": "",
+			"toDate": "",
+			"rangeOrder": 1,
+			"agencyCommission": "8.26",
+			"clientRemittance": "91.74",
+			"salesDescription": null,
+			"minimum": "22.48",
+			"priority": 3
+		}
+	],
+	"commissionCalcPojo": {
+		"pkKey": 65482,
+		"accountId": 65482,
+		"accountSchemeCodeRef": 3,
+		"clientCommissionSchemeCode": 3,
+		"pBalanceForRange": 61106.1,
+		"referredDate": 1525321397000,
+		"statusCodeRef": "ACH",
+		"calculatedCommission": 0,
+		"amount": 0,
+		"prorityOrder": false,
+		"paymentDate": "2018-05-15",
+		"commissionSchemeCode": 3
+	},
+	"transactionCommValues": {
+		"128": 0,
+		"129": 0,
+		"130": 0,
+		"131": 0,
+		"132": 0,
+		"396": 0,
+		"521": 0,
+		"695": 0
+	}
+}

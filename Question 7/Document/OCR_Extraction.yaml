@@ -1,0 +1,88 @@
+swagger: "2.0"
+info:
+  description: OCR Extraction
+  version: 1.0.0
+  title: Unique Data Element
+host: virtserver.swaggerhub.com
+# basePath: /v2 
+schemes:
+- https
+- http
+paths:
+  /OCR/Extraction:
+    post:
+      tags:
+      - OCR Extraction
+      summary: Accept the image or PDF and returns the extracted data
+      description: 'Accept the image or PDF and returns the extracted data'
+      produces:
+      - application/json
+      parameters:
+      - name: file
+        in: query
+        description: Image or PDF
+        required: true
+        type: string
+      - name: type
+        in: query
+        description: Pancard or Passport
+        required: true
+        type: string
+      - name: country
+        in: query
+        description: country name if type is passport
+        required: false
+        type: string
+      responses:
+        200:
+          description: Extracted data from pan or passport
+          schema:
+            type: object
+            items:
+              $ref: '#/definitions/ExtractedData'
+        
+        500:
+          description: exception while creating or updating the cbr global record
+
+definitions:  
+  ExtractedData:
+    properties:
+      passportNo:
+        type: string
+        description: passportNo
+      country:
+        type: string
+        description: Contry
+      dateOfExpiry:
+        type: string
+        description: Expiry date
+      placeOfBirth:
+        type: string
+        description: Place of birth
+      gender:
+        type: string
+        description: Gender
+      givenName:
+        type: string
+        description: Name of passport holder
+      dateOfBirth:
+        type: string
+        description: date of birth of passport holder
+      type:
+        type: string
+        description: passport type
+      dateOfIssue:
+        type: string
+        description: Date of passport issue
+      placeOfIssue:
+        type: string
+        description: Place of passport issue
+      nationality:
+        type: string
+        description: Nationality
+      surname:
+        type: string
+        description: Surname of passport holder
+      
+# Added by API Auto Mocking Plugin
+basePath: /ARM2/OCR/1.0.0

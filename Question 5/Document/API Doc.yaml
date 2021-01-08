@@ -1,0 +1,126 @@
+---
+swagger: "2.0"
+info:
+  description: Insurance premium and policy api documentation
+  version: 1.0.0
+  title: Insurance Premium
+host: virtserver.swaggerhub.com
+basePath: /CodeChasers/InsurancePremium/1.0.0
+schemes:
+- https
+- http
+paths:
+  /v1/insurance/premium:
+    post:
+      tags:
+      - InsurancePremium
+      summary: Calculate premium amount for the given person details.
+      description: 'Calculate the premium amount for the given person details.'
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: Person details
+        description: Calculate the premium amount for the given details.
+        required: true
+        schema:
+          $ref: '#/definitions/Person'
+      responses:
+        200:
+          description: premium amount
+        401:
+          description: authentication failure
+        500:
+          description: exception while calculating premium
+  
+    
+  /v1/insurance/policy:
+     post:
+      tags:
+      - Policy
+      summary: Create policy for the given details and make payment.
+      description: 'Create policy with the calculated premium amount and post payment for the premium amount  '
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: Person details
+        description: Calculate the premium amount for the given details and create policy and make payment.
+        required: true
+        schema:
+          $ref: '#/definitions/Person'
+      responses:
+        200:
+          description: policy created and posted the premium successfully
+        401:
+          description: authentication failure
+        500:
+          description: exception while creating policy.
+ 
+definitions:
+  Person:
+    type: object
+    required:
+    - firstName
+    - lastName
+    - emailId
+    - phoneNumber
+    - gender
+    - age
+    - dateOfBirth
+    - healthIssues
+    
+    properties:
+      firstName:
+        type: string
+        description: first name of the person 
+        example: 'James'
+      lastName:
+        type: string
+        description: last name of the person 
+        example: 'Frank'
+      emailId:
+        type: string
+        description: emailId
+        example: 'ss@gmail.com'
+      phoneNumber:
+        type: string
+        description: Phone number 
+        example: '8956666666'
+      gender:
+        type: string
+        description: Gender
+        example: 'MALE'
+      dateOfBirth:
+        type: string
+        description: date of birth
+        example: '11/01/1993'
+      age:
+        type: integer
+        description: Age 
+        example: 20
+      healthIssues:
+        type: object
+        description: pre health conditions 
+        example: ["Overweight","Hypertension"]
+      habbits:
+        type: object
+        description: habits of the person
+        example: [Alcohol,Drugs]
+      cardNumber:
+        type: string
+        description: credit card number 
+        example: "555555555555555"
+      cvv:
+        type: string
+        description: cvv number 
+        example: "234"   
+      expiryMonth:
+        type: string
+        description: card expiry month
+        example: "04" 
+      expiryYear:
+        type: string
+        description: card expiry year
+        example: "2021" 
+  

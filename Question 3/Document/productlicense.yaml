@@ -1,0 +1,90 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: "Product License"
+  description: Product License
+basePath: /api
+schemes:
+- http
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  /users:
+    get:
+      summary: List All the Users
+      responses:
+        200:
+          description: Successful Response
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/UserDetails'
+  /user:
+    post:
+      summary: Create new User,
+      consumes: 
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: User dto 
+          required: true
+          schema:
+            type: object
+            $ref: '#/definitions/UserDetails'
+      responses:
+        200:
+          description: Successful Response
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/UserDetails'
+   
+definitions:
+  UserDetails:
+    properties:
+      userId:
+        type: integer
+        description: The id of the user.
+      username:
+        type: string
+        description: The name of the user.
+      email:
+        type: string
+        description: The mail id of the user.
+      lockStatus:
+        type: string
+        description: A flag to represent if the user is restricted for Login or not.
+      active:
+        type: string
+        description: The status of the user.
+      firstName:
+        type: string
+        description: The first name of the user.
+      lastName:
+        type: string
+        description: The last name of the user.
+      gender:
+        type: string
+        description: The gender of teh user.
+      dob:
+        type: string
+        description: The birth date of teh user.
+      createdDate:
+        type: string
+        description: The creation date of user details in Table.
+        
+    required:
+      - userId
+      - username
+      - email
+      - lockStatus
+      - active
+      - firstName
+      - lastName
+      - gender
+      - dob
+      - createdDate
+

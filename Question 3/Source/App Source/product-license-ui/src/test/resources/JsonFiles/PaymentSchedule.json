@@ -1,0 +1,302 @@
+{
+	"paymentPojo": {
+		"payment": {
+			"paymentID": 15,
+			"paymentDescription": "Payment initiated",
+			"payAmount": 0,
+			"paymentDate": 1525804200000,
+			"nameonCard": "Noah,Clark",
+			"expireMonth": "01",
+			"expireYear": "2018",
+			"route": "000000001",
+			"bankAccNo": "65454",
+			"reqDate": "2018-05-09 09:28:17",
+			"userId": {
+				"userId": 3509,
+				"username": "deena   "
+			},
+			"paymentType": {
+				"generalLookupId": 46,
+				"lookupType": "PaymentType",
+				"lookupTypeDescription": "ACH",
+				"lookupKey": 502,
+				"lookupValue": "ACH",
+				"status": "Y"
+			},
+			"consumerId": {
+				"consumerId": 20024,
+				"consumerOverWriteAddress": false
+			},
+			"consumerID": 20024,
+			"allocationStatus": "N",
+			"autoAllocation": "Y",
+			"reportStatus": {
+				"lookupKey": 473
+			},
+			"remarks": "test",
+			"paymentFreqType": {
+				"generalLookupId": 58,
+				"lookupType": "paymentFrequency",
+				"lookupTypeDescription": "Monthly Payment",
+				"lookupKey": 293,
+				"lookupValue": "M",
+				"status": "Y"
+			},
+			"todayPaymentDate": 1525804200000,
+			"firstPaymentDate": 1525804200000,
+			"schedulerRunTime": "Account/master completely paid",
+			"payAmountType": {
+				"lookupKey": 505
+			},
+			"scheduledPayAmount": 98275.2,
+			"payerConsumerId": 20024,
+			"payerName": "Noah,Clark",
+			"addressLine1": "1212 SE 168TH AVE",
+			"addressLine2": "",
+			"state": {
+				"stateId": 38,
+				"stateCode": "OR"
+			},
+			"city": {
+				"cityId": 28782,
+				"cityName": "PORTLAND"
+			},
+			"country": {
+				"countryId": 227
+			},
+			"zipCode": "97233",
+			"unitId": 5,
+			"sourceType": "COL",
+			"recieptRequested": "Y",
+			"payFrequencyFirstDay": null,
+			"stagingFileName": null,
+			"entryStatus": null,
+			"distributionMethod": null,
+			"payNumber": null,
+			"representUser": null,
+			"paymentTypeRef": null
+		},
+		"account": [
+			{
+				"accountnumber": 65489,
+				"referredDate": 1525838297436,
+				"totalBalance": 0,
+				"account": false
+			}
+		],
+		"accountDetailsFromTable": [
+			{
+				"accountnumber": 65489,
+				"clientId": 20677,
+				"consumerID": 20024,
+				"unitId": 5,
+				"referredDate": "2016-10-22",
+				"principleBalance": 61106.1,
+				"statusCodeRef": "ACH",
+				"statusCodeWithPaymentMade": "N",
+				"clientTrustFormula": 43,
+				"account": false
+			}
+		],
+		"rePayPlan": {
+			"creationType": "new",
+			"sendLetter": true
+		},
+		"cardVerification": true,
+		"additionalPayOption": true,
+		"payOffInterest": 0,
+		"totalDue": 196550.4,
+		"zeroInterest": "N",
+		"accountIds": [
+			65489
+		],
+		"overRideStatusCodeRestrictPayment": "N"
+	},
+	"schedular": {
+		"bankAccountNumber": "65454",
+		"bankName": "",
+		"consumerDemographic": {
+			"consumerId": 20024
+		},
+		"createdUser": 3509,
+		"frequency": {
+			"generalLookupId": 58,
+			"lookupKey": 293,
+			"lookupType": "paymentFrequency",
+			"lookupTypeDescription": "Monthly Payment",
+			"lookupValue": "M",
+			"status": "Y"
+		},
+		"id": 1,
+		"payAmt": 98275.2,
+		"payeeAddress1": "1212 SE 168TH AVE",
+		"payeeAddress2": "",
+		"payeeCity": {
+			"cityId": 28782,
+			"cityName": "PORTLAND"
+		},
+		"payeeCountry": {
+			"countryId": 227
+		},
+		"payeeState": {
+			"stateId": 38
+		},
+		"payeeName": "Noah,Clark",
+		"payeeZipCode": "97233",
+		"paymentType": {
+			"generalLookupId": 46,
+			"lookupKey": 502,
+			"lookupType": "PaymentType",
+			"lookupTypeDescription": "ACH",
+			"lookupValue": "ACH",
+			"status": "Y"
+		},
+		"routeNumber": "000000001",
+		"scheduledAmt": 196550.4,
+		"startDate": 1525804200000,
+		"zeroInterest": "N"
+	},
+	"insertPaymentSchedulerForCompletePaid": {
+		"id": 154156,
+		"consumerDemographic": {
+			"consumerId": 20024,
+			"consumerOverWriteAddress": false
+		},
+		"consumerId": null,
+		"scheduledAmt": 196550.4,
+		"frequency": {
+			"generalLookupId": 58,
+			"lookupType": "paymentFrequency",
+			"lookupTypeDescription": "Monthly Payment",
+			"lookupKey": 293,
+			"lookupValue": "M",
+			"status": "Y"
+		},
+		"startDate": "2017-08-16",
+		"arrangementDate": null,
+		"lastPayDate": null,
+		"firstPayDate": null,
+		"weekDay": null,
+		"payAmt": 98275.2,
+		"noOfIteration": 5,
+		"paymentType": {
+			"generalLookupId": 46,
+			"lookupType": "PaymentType",
+			"lookupTypeDescription": "ACH",
+			"lookupKey": 502,
+			"lookupValue": "ACH",
+			"status": "Y"
+		},
+		"paymentTypeRef": 256,
+		"payeeName": "Noah,Clark",
+		"payeeAddress1": "1212 SE 168TH AVE",
+		"payeeAddress2": "",
+		"payeeAddress3": null,
+		"payeeAddress4": null,
+		"payeeCity": {
+			"cityId": 28782,
+			"cityName": "PORTLAND",
+			"stateId": null,
+			"state": null,
+			"companyId": null,
+			"status": null,
+			"userId": null,
+			"createDate": null,
+			"creatorRemarks": null,
+			"authorizedUser": null,
+			"authorizedDate": null,
+			"authorizerRemarks": null
+		},
+		"payeeState": {
+			"stateId": 38,
+			"stateName": null,
+			"stateCode": "OR",
+			"companyId": null,
+			"status": null,
+			"createUser": null,
+			"createDate": null,
+			"creatorRemarks": null,
+			"authorizedUser": null,
+			"authorizedDate": null,
+			"authorizerRemarks": null,
+			"country": null,
+			"countryId": null
+		},
+		"payeeCountry": {
+			"countryId": 227,
+			"countryCode": null,
+			"countryName": null,
+			"companyId": null,
+			"alpha2Code": null,
+			"status": null,
+			"createUser": null,
+			"createDate": null,
+			"creatorRemarks": null,
+			"authorizedUser": null,
+			"authorizedDate": null,
+			"authorizerRemarks": null
+		},
+		"payeeZipCode": "97233",
+		"cardNumber": null,
+		"bankAccountNumber": "65454",
+		"bankName": null,
+		"routeNumber": "000000001",
+		"zeroInterest": "N",
+		"createdUser": 1326,
+		"coupon": "Y"
+	},
+	"paymentSchedularMapping": {
+		"id": 7885,
+		"transactionIds": 13260,
+		"accountIdStr": "65489",
+		"accountStatus": "XAR",
+		"consumerId": 20024,
+		"schedularIdRef": 154156
+	},
+	"systemVariable": {
+		"id": "1000109",
+		"tableName": "CBRAccount",
+		"columnName": "complianceCode",
+		"description": "COMPLIANCE CODE",
+		"dataType": "GeneralLookup",
+		"parentId": null,
+		"modelName": "CBRAccount",
+		"packageName": "com.kgfsl.collections.core.models.",
+		"inputType": "C",
+		"keyColumnId": "GL1",
+		"valueColumnId": "1695",
+		"joinColumn": null,
+		"filterId": "1000189",
+		"filterValue": "561"
+	},
+	"comment": {
+		"conscode": {
+			"consumerId": 20024,
+			"consumerOverWriteAddress": false
+		},
+		"commntdesc": "Recurring Payment plan deleted with ref Transaction Id:# 13260 , schedule Id :# 154156",
+		"collcode": {
+			"userId": 1238
+		}
+	},
+	"repaymentPlan": {
+		"PaymentSchedulerId": {
+			"paymentTypeRef": 502
+		},
+		"paymentSchedulerIdRef" : 154156,
+		"paymentDate": "2018-02-26",
+		"paymentAmount": 60.15,
+		"paymentStatus": {
+			"generalLookupId": 333,
+			"lookupType": "PaymentStatus",
+			"lookupTypeDescription": "paymentStatus",
+			"lookupKey": 460,
+			"lookupValue": "PartiallyPaid",
+			"status": "Y"
+		},
+		"advanceAmount": 0,
+		"createTime": "2018-05-11",
+		"paidamount": 0
+	}
+	
+}

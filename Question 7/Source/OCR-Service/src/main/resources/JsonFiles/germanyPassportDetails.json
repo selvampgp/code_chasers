@@ -1,0 +1,71 @@
+
+		{
+	"text": {
+		"x": 110,
+		"y": 55,
+		"width": 242,
+		"height": 33
+	},
+	"type": {
+		"x": 300,
+		"y": 98,
+		"width": 138,
+		"height": 44
+	},
+	"passportNo": {
+		"x": 617,
+		"y": 95,
+		"width": 206,
+		"height": 41
+	},
+	"surname": {
+		"x": 346,
+		"y": 151,
+		"width": 161,
+		"height": 42
+	},
+	"givenName": {
+		"x": 321,
+		"y": 232,
+		"width": 258,
+		"height": 40
+	},
+	"nationality": {
+		"x": 702,
+		"y": 323,
+		"width": 201,
+		"height": 43
+	},
+	"gender": {
+		"x": 532,
+		"y": 324,
+		"width": 83,
+		"height": 41
+	},
+	"dateOfBirth": {
+		"x": 339,
+		"y": 329,
+		"width": 182,
+		"height": 37
+	},
+	"placeOfBirth": {
+		"x": 337,
+		"y": 379,
+		"width": 254,
+		"height": 40
+	},
+	"dateOfIssue": {
+		"x": 334,
+		"y": 445,
+		"width": 202,
+		"height": 36
+	},
+	"dateOfExpiry": {
+		"x": 535,
+		"y": 445,
+		"width": 202,
+		"height": 42
+	}
+}
+
+	

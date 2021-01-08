@@ -1,0 +1,438 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Care Health Insurance Plans</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/css/app.css}" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/css/bootstrap.min.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/css/jquery-ui.css}" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/css/multiple-select.css}" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/css/daterangepicker.css}" />
+<script type="text/javascript" th:src="@{/js/jquery.js}"></script>
+<script type="text/javascript" th:src="@{/js/jquery-ui.js}"></script>
+<script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/jquery.multiple.select.js}"></script>
+<script type="text/javascript" th:src="@{/js/moment.js}"></script>
+<script type="text/javascript" th:src="@{/js/daterangepicker.js}"></script>
+<script type="text/javascript" th:src="@{/js/jquery.maskedinput.js}"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"
+	integrity="sha512-efUTj3HdSPwWJ9gjfGR71X9cvsrthIA78/Fvd/IN+fttQVy7XWkOAXb295j8B3cmm/kFKVxjiNYzKw9IQJHIuQ=="
+	crossorigin="anonymous"></script>
+<script th:src="@{/js/view/insurance.js}" type="text/javascript"></script>
+
+<style type="text/css">
+.upper_maincontainer {
+	width: 100%;
+	background-image: url(/rhicl/public/sem/assets/bg-1.png);
+	background-repeat: no-repeat;
+	display: flex;
+	background-size: cover;
+	background-position: 100% 85%;
+	position: relative;
+	min-height: 530px;
+}
+</style>
+<script th:inline="javascript">
+	/*<![CDATA[*/
+	            var _calculatePremiumURL = /*[[@{/insurance/premium}]]*/;
+	            var _submitPremiumURL = /*[[@{/insurance/policy}]]*/;
+	   /*]]>*/
+</script>
+</head>
+<body class="caresem_body popup_overflow">
+	<div class="upper_maincontainer_body">
+		<div class="upper_maincontainer">
+			<div class="backgroung_overlap"></div>
+			<div class="container">
+				<header class="caresem_header">
+					<div class="left_header_icon_container"></div>
+					<div class="right_header_text">
+						<h1>Health Insurance Plans Online</h1>
+
+					</div>
+				</header>
+
+				<div class="first_page">
+					<div class="page_cont_body">
+						<div class="left_container">
+							<div class="left_header_text">
+								<h1>Complete Healthcare Plans For You Your Family</h1>
+
+							</div>
+							<div class="left_container_section">
+								<div class="left_content">
+									<ul class="bullet_point">
+										<li>Base premium for anyone below the age of 18 years is Rs. 5,000</li>
+										<li>Get Discount Upto 3% for every good habit</li>
+										<li>Coverage Against COVID-19</li>
+										<li>% increase based on age: 18-25 -> + 10% | 25-30 -> +10% | 30-35 -> +10% | 35-40 -> +10% | 40+ -> 20% increase every 5 years</li>
+										<li>7800+ Network Hospitals</li>
+										<li>Sum Insured Upto 6 Cr</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="right_container">
+							<div class="right_header_icon1">
+								<div class="twitter_icon active">
+									<img alt="twitter"
+										src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjM2IDIzNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjM2IDIzNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+LnN0MHtmaWxsOiNGRERDMDA7fS5zdDF7ZmlsbDojRkZGRkZGO30uc3Qye2ZpbGw6I0VGRjlGRTt9LnN0M3tmaWxsOiMxMjY4QjI7fTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE1OS41LDIyNy42SDc1LjhjLTEwLjksMC0xOS43LTguOC0xOS43LTE5Ljd2LTI4LjZoMTIzLjF2MjguNkMxNzkuMiwyMTguOCwxNzAuNCwyMjcuNiwxNTkuNSwyMjcuNnoiLz48cmVjdCB4PSI1Ni4yIiB5PSIxMC43IiBjbGFzcz0ic3QxIiB3aWR0aD0iMTI0LjgiIGhlaWdodD0iMTcyLjciLz48cGF0aCBjbGFzcz0ic3QyIiBkPSJNMTc5LjQsMzEuNWgtMTIxVjE4LjFjMC01LjYsNC42LTEwLjIsMTAuMi0xMC4yaDEwMC42YzUuNiwwLDEwLjIsNC42LDEwLjIsMTAuMlYzMS41eiIvPjxnPjxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik0xNjYuOSwzSDcwLjNDNjEsMyw1My40LDEwLjYsNTMuNCwxOS45djE5Ni4yYzAsOS4zLDcuNiwxNi45LDE2LjksMTYuOWg5Ni42YzkuMywwLDE2LjktNy42LDE2LjktMTYuOVYxOS45QzE4My43LDEwLjYsMTc2LjIsMywxNjYuOSwzeiBNNjEuMSwzMy43aDExNXYxNDUuN2gtMTE1VjMzLjd6IE03MC4zLDEwLjdoOTYuNmM1LjEsMCw5LjIsNC4xLDkuMiw5LjJWMjZoLTExNXYtNi4xQzYxLjEsMTQuOCw2NS4yLDEwLjcsNzAuMywxMC43eiBNMTY2LjksMjI1LjNINzAuM2MtNS4xLDAtOS4yLTQuMS05LjItOS4yVjE4N2gxMTV2MjkuMUMxNzYuMSwyMjEuMiwxNzEuOSwyMjUuMywxNjYuOSwyMjUuM3oiLz48cGF0aCBjbGFzcz0ic3QzIiBkPSJNMTE4LjYsMTkwLjhjLTguNSwwLTE1LjMsNi45LTE1LjMsMTUuM3M2LjksMTUuMywxNS4zLDE1LjNzMTUuMy02LjksMTUuMy0xNS4zUzEyNywxOTAuOCwxMTguNiwxOTAuOHogTTExOC42LDIxMy44Yy00LjIsMC03LjctMy40LTcuNy03LjdjMC00LjIsMy40LTcuNyw3LjctNy43YzQuMiwwLDcuNywzLjQsNy43LDcuN0MxMjYuMiwyMTAuNCwxMjIuOCwyMTMuOCwxMTguNiwyMTMuOHoiLz48cGF0aCBjbGFzcz0ic3QzIiBkPSJNMjIwLjYsMjAuNWMtMS41LTEuNS0zLjktMS41LTUuNCwwYy0xLjUsMS41LTEuNSwzLjksMCw1LjRjMTQuMywxNC4zLDE0LjMsMzcuNiwwLDUyYy0xLjUsMS41LTEuNSwzLjksMCw1LjRjMC43LDAuNywxLjcsMS4xLDIuNywxLjFzMi0wLjQsMi43LTEuMUMyMzcuOSw2NiwyMzcuOSwzNy44LDIyMC42LDIwLjV6Ii8+PHBhdGggY2xhc3M9InN0MyIgZD0iTTIwNC40LDI5LjJjLTEuNS0xLjUtMy45LTEuNS01LjQsMGMtMS41LDEuNS0xLjUsMy45LDAsNS40YzQuNyw0LjcsNy40LDExLjEsNy40LDE3LjhzLTIuNiwxMy03LjQsMTcuOGMtMS41LDEuNS0xLjUsMy45LDAsNS40YzAuNywwLjcsMS43LDEuMSwyLjcsMS4xczItMC40LDIuNy0xLjFjNi4yLTYuMiw5LjYtMTQuNCw5LjYtMjMuMlMyMTAuNiwzNS40LDIwNC40LDI5LjJ6Ii8+PHBhdGggY2xhc3M9InN0MyIgZD0iTTIyLDI1LjljMS41LTEuNSwxLjUtMy45LDAtNS40Yy0xLjUtMS41LTMuOS0xLjUtNS40LDBDLTAuOCwzNy44LTAuOCw2NiwxNi42LDgzLjNjMC43LDAuNywxLjcsMS4xLDIuNywxLjFzMi0wLjQsMi43LTEuMWMxLjUtMS41LDEuNS0zLjksMC01LjRDNy43LDYzLjYsNy43LDQwLjMsMjIsMjUuOXoiLz48cGF0aCBjbGFzcz0ic3QzIiBkPSJNMzguMSwyOC4yYy0xLjUtMS41LTMuOS0xLjUtNS40LDBjLTYuMiw2LjItOS42LDE0LjQtOS42LDIzLjJzMy40LDE3LDkuNiwyMy4yYzAuNywwLjcsMS43LDEuMSwyLjcsMS4xczItMC40LDIuNy0xLjFjMS41LTEuNSwxLjUtMy45LDAtNS40Yy00LjctNC43LTcuNC0xMS4xLTcuNC0xNy44czIuNi0xMyw3LjQtMTcuOEMzOS42LDMyLjEsMzkuNiwyOS43LDM4LjEsMjguMnoiLz48L2c+PC9zdmc+" />
+								</div>
+								<div class="dashed_line"></div>
+								<div class="facebook_icon">
+									<img alt="facebook"
+										src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjc5IDIzOS4xIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNzkgMjM5LjE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojQzJDMUMwO308L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yNzEuNCwxNzQuNmMtMC41LTIuMS0yLjctMy40LTQuOC0yLjhjLTIuMSwwLjUtMy40LDIuNy0yLjgsNC44YzEsMy44LDEuNiw3LjcsMS44LDExLjZoLTc1Yy0xLTAuNC0yLjEtMC44LTMuMy0wLjljMC0wLjEsMC0wLjIsMC0wLjNjMC0xNy42LTkuMi0zMy4xLTIzLTQyLjFjNi4xLTUuMSwxMy05LDIwLjQtMTEuNGMyLjksOCwxMC42LDEzLjYsMTkuNCwxMy42YzguOCwwLDE2LjQtNS42LDE5LjMtMTMuNWMxNC43LDQuOCwyNy4yLDE1LjEsMzQuOCwyOS4xYzEuMSwyLDMuOCwyLjcsNS43LDEuNGMxLjctMS4xLDIuMi0zLjQsMS4zLTUuMmMtMy4xLTUuNy02LjktMTAuOS0xMS4zLTE1LjRjMy43LTIuNyw2LjgtNi45LDkuNC0xMi41YzEwLjQtMjIsMTAuMy02NC4xLDMtODMuMmMtNC45LTEyLjctMTMuMy0yMy40LTI0LjUtMzEuMWMtMTEuMi03LjctMjQuMi0xMS44LTM3LjgtMTEuOGMtMTYuMiwwLTMxLjgsNS45LTQ0LDE2LjZjLTEuNiwxLjQtMS44LDMuOS0wLjQsNS42YzEuNCwxLjYsMy45LDEuOCw1LjYsMC40YzEwLjctOS40LDI0LjUtMTQuNiwzOC43LTE0LjZjMTEuOSwwLDIzLjUsMy42LDMzLjMsMTAuNGM5LjgsNi44LDE3LjMsMTYuMywyMS42LDI3LjRjNi42LDE3LjIsNi42LDU2LjktMi44LDc3Yy0yLjQsNS4xLTUuMiw4LjUtOC4zLDEwLjNjLTYuOC01LjUtMTQuNS05LjctMjIuOS0xMi4zYzE2LjMtNy44LDI3LjYtMjQuNSwyNy42LTQzLjh2LThjMC0xLjktMS40LTMuNi0zLjMtMy45Yy0xOS42LTMuNC0zMy4yLTIzLjMtMzMuMy0yMy41Yy0xLjctMi42LTUuOC0yLjItNywwLjdDMjA5LDQ3LjUsMTk5LjQsNzAsMTU5LjYsNzBjLTIuMiwwLTQsMS44LTQsNHY4YzAsMTkuMywxMS4zLDM2LDI3LjYsNDMuOGMtOC4zLDIuNi0xNiw2LjgtMjIuOSwxMi4zYy0zLjEtMS44LTUuOS01LjItOC4zLTEwLjNjLTkuNC0yMC05LjQtNTkuNy0yLjgtNzYuOWMxLjYtNC4yLDMuNy04LjMsNi4zLTEyYzEuMi0xLjgsMC44LTQuMy0xLTUuNWMtMS44LTEuMi00LjMtMC44LTUuNSwxYy0yLjksNC4yLTUuMyw4LjgtNy4xLDEzLjdjLTcuMywxOS03LjMsNjEuMSwzLDgzLjJjMS4zLDIuOCwyLjgsNS4zLDQuNCw3LjNjLTMuNS0wLjktNy4xLTEuMy0xMC44LTEuNGMtMC40LTMuMS0wLjctNy41LDAuMS0xMC45YzAuNS0yLjEtMC45LTQuMi0zLTQuN2MtMi4xLTAuNS00LjIsMC45LTQuNywzYy0wLjcsMy4zLTAuOCw3LjEtMC41LDEwLjJjLTYuMi00LTcuNC0xMC03LjUtMTAuNGMtMC40LTIuMS0yLjQtMy42LTQuNS0zLjJjLTIuMiwwLjQtMy42LDIuNC0zLjMsNC41YzAuMSwwLjQsMS40LDcuOCw4LDEzLjZjLTEuMiwwLjQtMi40LDAuOC0zLjYsMS4yYy03LjUtNi43LTE2LjItMTEuNi0yNS41LTE0LjZjOC4zLTQsMTUuMy0xMC4yLDIwLjItMThjMiwxLDQuMywxLjYsNi42LDEuNmM4LDAsMTQuNC02LjUsMTQuNC0xNC40YzAtMy4xLTEtNS45LTIuNi04LjNjMTAuMy0zMCw1LjgtNDcuNiwwLTU3LjFjLTUuNy05LjUtMTUuMy0xNS42LTI2LjktMTcuMmMtOC4yLTEuMS0xNSwxLjEtMTguNywyLjhDODEuNCw4LjYsNzUuMSw1LjEsNjIuMSw1LjFjLTE0LjksMC0zNi4xLDcuNy00Ny4zLDI0LjdjLTEyLjQsMTguOS03LjksNDEtMS40LDU3Yy0xLjYsMi4zLTIuNSw1LjEtMi41LDguMWMwLDgsNi41LDE0LjQsMTQuNCwxNC40YzIuMywwLDQuNi0wLjYsNi42LTEuNmM0LjksNy43LDExLjksMTQsMjAuMSwxNy45Yy0xMSwzLjQtMjEsOS42LTI5LjIsMTguMmMtMS40LDEuNC0xLjUsMy43LTAuMiw1LjNjMS41LDEuOCw0LjMsMS45LDUuOSwwLjJjNy4xLTcuNCwxNS43LTEyLjgsMjUuMS0xNS45YzIuOSw4LDEwLjYsMTMuNiwxOS40LDEzLjZjOC44LDAsMTYuNC01LjYsMTkuMy0xMy41YzcsMi4zLDEzLjUsNS45LDE5LjMsMTAuNWMtMTQuNiw4LjgtMjQuNCwyNC43LTI0LjQsNDIuOWMwLDAuMSwwLDAuMiwwLDAuM2MtMS4xLDAuMi0yLjIsMC41LTMuMywwLjlIMTEuNWMwLjYtOS41LDMuMy0xOC43LDguMS0yNi45YzEuMS0xLjksMC40LTQuMy0xLjUtNS40Yy0xLjktMS4xLTQuMy0wLjQtNS40LDEuNWMtNi4xLDEwLjUtOS4zLDIyLjUtOS4zLDM0Ljd2MC4yYzAsMi4yLDEuOCw0LDQsNGg2OC44Yy0wLjcsMS43LTEsMy41LTEsNS40YzAsOCw2LjUsMTQuNCwxNC40LDE0LjRjMi4xLDAsNC4xLTAuNCw2LTEuM2M5LDEzLjUsMjQuMywyMi40LDQxLjcsMjIuNGMxNy40LDAsMzIuNy04LjksNDEuNy0yMi40YzEuOSwwLjgsMy45LDEuMyw2LDEuM2M4LDAsMTQuNC02LjUsMTQuNC0xNC40YzAtMS45LTAuNC0zLjctMS01LjRoNzEuM2MyLjIsMCw0LTEuOCw0LTRWMTkyQzI3My42LDE4Ni4xLDI3Mi45LDE4MC4zLDI3MS40LDE3NC42eiBNMTIwLjcsMTAxLjRjLTEsMC0yLTAuMi0yLjktMC43YzEuNi0zLjksMi44LTgsMy40LTEyLjNjMy40LDAuMiw2LjEsMyw2LjEsNi41QzEyNy4yLDk4LjUsMTI0LjMsMTAxLjQsMTIwLjcsMTAxLjR6IE0yMS41LDM0LjJDMzEsMTkuNiw0OS4zLDEzLDYyLjEsMTNjMTIuNiwwLDE2LjEsMy42LDIwLjUsOS42YzEuMywxLjcsMy42LDIuMSw1LjQsMC45YzAuMSwwLDcuMS00LjYsMTYuNS0zLjNjOS4yLDEuMywxNi43LDYsMjEuMiwxMy40YzYuNywxMSw2LjcsMjcuNSwwLjEsNDcuOGMtMS40LTAuNS0yLjgtMC45LTQuMy0wLjl2LTYuNmMwLTEuOS0xLjQtMy42LTMuMy0zLjljLTE5LjYtMy40LTMzLjItMjMuMy0zMy4zLTIzLjVjLTEuNy0yLjYtNS44LTIuMi03LDAuN2MwLDAuMS0yLjUsNS43LTkuNywxMS4zQzU4LjYsNjYsNDQuOSw3MCwyOC41LDcwYy0yLjIsMC00LDEuOC00LDR2Ni42Yy0xLjYsMC4xLTMuMiwwLjUtNC42LDEuMUMxMi43LDYyLjYsMTMuMiw0Ni43LDIxLjUsMzQuMnogTTI1LjQsMTAxLjRjLTMuNiwwLTYuNS0yLjktNi41LTYuNWMwLTMuNSwyLjctNi4zLDYuMS02LjVjMC42LDQuMywxLjcsOC40LDMuNCwxMi4zQzI3LjQsMTAxLjIsMjYuNCwxMDEuNCwyNS40LDEwMS40eiBNMzIuNSw4NC42QzMyLjUsODQuNiwzMi41LDg0LjYsMzIuNSw4NC42Yy0wLjEtMC45LTAuMS0xLjgtMC4xLTIuN3YtNC4xYzMwLTEuMSw0NC0xNC4zLDQ5LjYtMjJjNS41LDYuNSwxNi42LDE3LjYsMzEuNiwyMS4zdjQuOGMwLDAuOSwwLDEuOC0wLjEsMi42YzAsMCwwLDAsMCwwLjFjLTEuNCwyMS4xLTE5LDM3LjktNDAuNSwzNy45QzUxLjUsMTIyLjUsMzMuOSwxMDUuOCwzMi41LDg0LjZ6IE03MywxMzkuMmMtNS4xLDAtOS43LTMuMS0xMS42LTcuNmMzLjgtMC43LDcuNy0xLjEsMTEuNi0xLjFjMy45LDAsNy44LDAuNCwxMS42LDEuMUM4Mi43LDEzNi4xLDc4LjIsMTM5LjIsNzMsMTM5LjJ6IE0yMDQuMSwxMzkuMmMtNS4xLDAtOS43LTMuMS0xMS42LTcuNmMzLjgtMC43LDcuNy0xLjEsMTEuNi0xLjFjMy45LDAsNy44LDAuNCwxMS42LDEuMUMyMTMuOCwxMzYuMSwyMDkuMywxMzkuMiwyMDQuMSwxMzkuMnogTTE2My41LDgxLjl2LTQuMWMzMC0xLjEsNDQtMTQuMyw0OS42LTIyYzUuNSw2LjUsMTYuNiwxNy42LDMxLjYsMjEuM3Y0LjhjMCwyMi40LTE4LjIsNDAuNi00MC42LDQwLjZTMTYzLjUsMTA0LjMsMTYzLjUsODEuOXogTTg5LjcsMjA4LjFjLTMuNiwwLTYuNS0yLjktNi41LTYuNWMwLTMsMi01LjUsNC44LTYuM2MwLjcsNC40LDIsOC41LDMuOCwxMi41QzkxLjEsMjA3LjksOTAuNCwyMDguMSw4OS43LDIwOC4xeiBNMTM3LjMsMjI5LjFjLTIzLjIsMC00Mi4xLTE4LjktNDIuMS00Mi4xczE4LjktNDIuMSw0Mi4xLTQyLjFzNDIuMSwxOC45LDQyLjEsNDIuMVMxNjAuNiwyMjkuMSwxMzcuMywyMjkuMXogTTE4NSwyMDguMWMtMC43LDAtMS40LTAuMS0yLjEtMC40YzEuOC0zLjksMy4xLTguMSwzLjgtMTIuNWMyLjgsMC44LDQuOCwzLjMsNC44LDYuM0MxOTEuNSwyMDUuMSwxODguNiwyMDguMSwxODUsMjA4LjF6Ii8+PC9zdmc+" />
+								</div>
+							</div>
+							<form name="care-quote-box" action="javascript:void(0);">
+
+								<div class="right_cardcontainer">
+									<div class="shadow_box card_size_position">
+										<p></p>
+										<p>Secure Your Loved Ones Now!</p>
+										<p></p>
+									</div>
+
+									<div class="get_quote_button_cont">
+										<button class="get_quote_button card_size_position"
+											id="get_quote_button" type="button" onclick="getPremium();">
+											GET PREMIUM QUOTE<span class=""></span>
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="premium-modal" tabindex="-1"
+				role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+				data-keyboard="false" data-backdrop="static">
+				<div class="modal-dialog" style="width: 798px;">
+					<div class="modal-content">
+						<div class="modal-body">
+							<div id="calculate-premium" style="display: none">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">First Name</label> <input type="text"
+												id="fname" required="required" maxlength="100"
+												class="form-control" />
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label class="">Last Name</label> <input type="text"
+												required="required" class="form-control" id="lname" />
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">DOB</label> <input type="text" id="dob"
+												required="required" placeholder="MM/DD/YYYY"
+												class="form-control" />
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label class="">Gender</label> <select class="form-control"
+												id="gender">
+												<option value="0">Select</option>
+												<option value="MALE">Male</option>
+												<option value="FEMALE">Female</option>
+												<option value="OTHER">Other</option>
+											</select>
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">Phone Number</label> <input type="text" maxlength="10"
+												required="required" id="phoneNumber" class="form-control" />
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label class="">E-Mail</label> <input type="text"
+												required="required" class="form-control" id="email" />
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">Current health</label> <select
+												class="form-control" multiple="multiple" id="currentHealth">
+												<option value="Hypertension">Hypertension</option>
+												<option value="BloodPressure">Blood pressure</option>
+												<option value="BloodSugar">Blood sugar</option>
+												<option value="Overweight">Overweight</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">Habits</label> <select class="form-control"
+												multiple="multiple" id="habits">
+												<option value="Smoking">Smoking</option>
+												<option value="Alchohol">Alcohol</option>
+												<option value="DailyExercise">Daily exercise</option>
+												<option value="Drugs">Drugs</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer padding-5">
+								<button type="button" class="btn btn-sm btn-danger"
+										data-dismiss="modal"><i class="fa fa-times-circle bigger-110">Close</i></button>
+									<button type="button" class="btn btn-sm btn-primary"
+										onClick="calculatePremium();">
+										<i class="fa fa-times-circle bigger-110">Calculate Premium</i>
+									</button>
+								</div>
+							</div>
+
+							<div id="calculated-premium" style="display: none">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">First Name: </label><span id="firstnameSpan"></span>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label class="">Last Name: </label> <span id="lastnameSpan"></span>
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">Phone Number: </label> <span id="phonenoSpan"></span>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label class="">E-Mail: </label> <span id="emailSpan"></span>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-8">
+										<div class="form-group" style="color: green;">
+											<h2 id="premiumAMount">Your Premium Amount is $700.00</h2>
+										</div>
+									</div>
+								</div>
+
+								<div class="modal-footer padding-5">
+								<button type="button" class="btn btn-sm btn-danger"
+										data-dismiss="modal">
+										<i class="fa fa-times-circle bigger-110">Close</i>
+									</button>
+									<button type="button" class="btn btn-sm btn-primary" onClick="backToCalculate();"
+										>
+										<i class="fa fa-times-circle bigger-110">Back</i>
+									</button>
+									<button type="button" class="btn btn-sm btn-primary"
+										onClick="buyPremium();">
+										<i class="fa fa-times-circle bigger-110">Buy Now</i>
+									</button>
+								</div>
+							</div>
+							
+							<div id="buy-premium" style="display: none">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">Card Number</label> <input type="text" placeholder="0000-0000-0000-0000"
+												id="cardNumber" required="required" 
+												class="form-control" />
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label class="">CVV</label> <input type="text" maxlength="3"
+												required="required" class="form-control" id="cvv" />
+
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="">Expiry Month</label> <select
+												class="form-control" id="expMonth">
+												<option selected="selected" value="01">January</option>
+												<option value="02">February</option>
+												<option value="03">March</option>
+												<option value="04">April</option>
+												<option value="05">May</option>
+												<option value="06">June</option>
+												<option value="07">July</option>
+												<option value="08">August</option>
+												<option value="09">September</option>
+												<option value="10">October</option>
+												<option value="11">November</option>
+												<option value="12">December</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label class="">Expiry Year</label> <select
+												class="form-control" id="expYear">
+												<option value="2021" selected="selected">2021</option>
+												<option value="2022">2022</option>
+												<option value="2023">2023</option>
+												<option value="2024">2024</option>
+												<option value="2025">2025</option>
+												<option value="2026">2026</option>
+												<option value="2027">2027</option>
+												<option value="2028">2028</option>
+												<option value="2029">2029</option>
+												<option value="2030">2030</option>
+												<option value="2031">2031</option>
+												<option value="2032">2032</option>
+												<option value="2033">2033</option>
+												<option value="2034">2034</option>
+												<option value="2035">2035</option>
+											</select>
+
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer padding-5">
+								<button type="button" class="btn btn-sm btn-danger"
+										data-dismiss="modal"><i class="fa fa-times-circle bigger-110">Close</i></button>
+									<button type="button" class="btn btn-sm btn-primary"
+										onClick="submitPremium();">
+										<i class="fa fa-times-circle bigger-110">Submit</i>
+									</button>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="alertmsg" tabindex="-1" role="dialog"
+				aria-labelledby="myModalLabel" aria-hidden="true"
+				data-keyboard="false" data-backdrop="static">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body">
+						      <h2>Premium amount has been received successfully. Thank you for taking the health insurance policy.</h2>
+						</div>
+						<div class="modal-footer padding-5">
+							<button type="button" class="btn btn-sm btn-success"
+								data-dismiss="modal">
+								<i class="fa fa-times-circle bigger-110">Close</i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="bottom_maincontainer">
+		<div class="container">
+			<h1>
+				<strong>Why Do You Need Health Insurance?</strong>
+			</h1>
+
+			<p>Health insurance policy is crucial to managing health care
+				needs. A medical emergency can occur at any time, and one-time
+				hospitalization can cost you lakhs of rupees. You need to be
+				well-prepared to face such a critical situation if you have a loving
+				family. But, still, if the question scorches your mind, that why you
+				need health insurance then read on.</p>
+
+			<ul>
+				<li>Increased pollution level cause severe respiratory problems</li>
+				<li>Sedentary lifestyle reported a higher number of
+					hospitalization</li>
+				<li>Unhealthy food habits causing life-threatening diseases</li>
+				<li>Cancer patients are increasing day by day</li>
+				<li>Medical inflation making the treatment out of the pocket
+					expense</li>
+				<li>Chronic diseases like diabetes, hypertension, and thyroid
+					need on-going treatment</li>
+				<li>Critical illnesses such as cancer, kidney failure, tumours,
+					and more need advance treatment</li>
+				<li>Pandemic outbreaks like coronavirus</li>
+			</ul>
+
+
+			<p>Therefore, in this difficult situation, a robust health
+				insurance policy comes as a savior. So, beat the heat of inflation
+				and medical exigency and avail outstanding benefits of our Health
+				Insurance Policy now.</p>
+
+			<h2>
+				<strong>Why to Opt for Care Health Insurance?</strong>
+			</h2>
+
+			<p>Choosing the right health insurance amongst a plethora of
+				available options can be a daunting task. But, at Religare Health
+				Insurance, you can opt for customized health insurance that caters
+				to your and your family’s health care needs. Take a look at more
+				excellent features that make it the best individual and family
+				health insurance.</p>
+
+			<ul>
+				<li>Coronavirus Coverage</li>
+				<li>Lifelong renewability</li>
+				<li>Super top-up option</li>
+				<li>No Claim Bonus</li>
+				<li>Robotic Surgery</li>
+				<li>Annual Health Check-Up</li>
+				<li>Discounted premium</li>
+				<li>In-patient hospitalization</li>
+				<li>Pre and post hospitalization</li>
+				<li>Day care treatments</li>
+				<li>AYUSH treatment</li>
+				<li>Free look Period</li>
+				<li>Emergency Ambulance</li>
+				<li>Tax Benefit under section 80D</li>
+			</ul>
+
+			<p>We serve our customers with 93% insurance claim settlement
+				ratio, plus provide cashless treatment facility at 7800+ network
+				hospitals with 24x7 customer support. We ensure that all your family
+				members get the benefits under the coverage so that you do not need
+				to sacrifice your savings.</p>
+
+			<h2>Don’t wait for a medical emergency to knock your door,
+				choose complete protection for you and your family with Care Health
+				Insurance.</h2>
+
+			<p>Religare Health Insurance is Now Care Health Insurance.</p>
+
+			<p>Get your free quote now!</p>
+
+
+			<p>**TnC Apply</p>
+
+		</div>
+	</div>
+	<!-- *****************pop up********************* -->
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+	"id": null,
+	
+	"firstName": "Test Fname",
+	
+	"lastName": "Test Lname",
+	
+	"emailId": "test@gmail.com",
+	
+	"phoneNumber": "1234567890",
+	
+	"gender": "FEMALE",
+	
+	"age": "20",
+	
+	"dateOfBirth": "01/04/2000",
+	
+	"healthIssues": [
+	                   "Hypertension", 
+	                   "BloodPressure", 
+	                   "BloodSugar", 
+	                   "Overweight"
+	                 ],
+	                 
+	"habbits": [
+	              "Smoking", 
+	              "Alchohol", 
+	              "DailyExercise", 
+	              "Drugs"
+	            ],
+	            
+	"cardNumber": "Y",
+	
+	"cvv": "Y",
+	
+	"expiryMonth": "Y",
+	
+	"expiryYear": "Y"
+}

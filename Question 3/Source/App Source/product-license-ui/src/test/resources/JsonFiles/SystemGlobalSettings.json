@@ -1,0 +1,112 @@
+{
+  "createStage": {
+    "primaryId": 246,
+    "key": "PaymentScheduledWorkflow",
+    "value": "1016",
+    "description": "Payment Schedule On Account Status Code ",
+    "area": "System",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "deleteStage": {
+    "primaryId": 245,
+    "key": "PlanDeleteWorkflow",
+    "value": "1017",
+    "description": "Payment Schedule On Account Status Code ",
+    "area": "System",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "autoApproval": {
+    "primaryId": 144,
+    "key": "AutoApprovalPaymentType",
+    "value": "2712,2713,2714,254,661",
+    "description": "Auto approval payment types",
+    "area": "Payment",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "postThroughReport": {
+    "primaryId": 194,
+    "key": "PostingthroughPaymentReport",
+    "value": "253,252",
+    "description": "Payment Schedule On Account Status Code ",
+    "area": "Payment",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "postingAutoClear": {
+    "primaryId": 195,
+    "key": "PostingAutoClear",
+    "value": "Y",
+    "description": "Payment Schedule On Account Status Code ",
+    "area": "Payment",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "OverPayThresholds": {
+    "primaryId": 268,
+    "key": "OverPayThreshold",
+    "value": "1",
+    "description": "Threshold value to adjust overpayment",
+    "area": "Payment",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "GROUPED_ADJ_DP": {
+    "primaryId": 264,
+    "key": "PaymentStagingDPADJGrouping",
+    "value": "false",
+    "description": "Flag to show DP/ADJ entries in payment staging screen as grouped or ungrouped",
+    "area": "PaymentStaging",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "CheckWithCoupon": {
+    "primaryId": 116,
+    "key": "CheckWithCoupon",
+    "value": "2",
+    "description": "EsScan Code for Batchtype Identification in Payment Staging",
+    "area": "Payment Staging",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "CheckOnly": {
+    "primaryId": 114,
+    "key": "CheckOnly",
+    "value": "3",
+    "description": "EsScan Code for Batchtype Identification in Payment Staging",
+    "area": "Payment Staging",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "MoneyOrderOnly": {
+    "primaryId": 115,
+    "key": "MoneyOrderOnly",
+    "value": "5",
+    "description": "EsScan Code for Batchtype Identification in Payment Staging",
+    "area": "Payment Staging",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "MoneyOrderWithCoupon": {
+    "primaryId": 117,
+    "key": "MoneyOrderWithCoupon",
+    "value": "6",
+    "description": "EsScan Code for Batchtype Identification in Payment Staging",
+    "area": "Payment Staging",
+    "userName": null,
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  }
+}

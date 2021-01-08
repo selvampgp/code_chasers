@@ -1,0 +1,117 @@
+{
+	"consumerPaymentData": [
+		{
+			"note": "test",
+			"country": "United States",
+			"zipCode": "836056331",
+			"staId": 555,
+			"firstname": "ERIC DEAN",
+			"address": "PO BOX 3604",
+			"city": "MARICAO",
+			"address2": "LOT 265",
+			"ctyId": 28726,
+			"state": "PUERTO RICO",
+			"lastname": "MECHAM",
+			"addressId": 823236
+		}
+	],
+	"allocatedPayments": [
+		{
+			"account": 62388,
+			"clientname": "ERIC",
+			"statuscod": "A12",
+			"dor": "09/19/2017",
+			"dateofservice": "09/19/2017",
+			"acoCommOnPrincipleBalance": 0.4,
+			"aco_principle_balance": 3.0,
+			"accumulatedFlag": "Y",
+			"CLIENT": 1,
+			"reason": "",
+			"allocationPriority": "1",
+			"tbl": "opened"
+		}
+	],
+	"closedAccounts": [
+		{
+			"account": 62349,
+			"clientname": "ERIC",
+			"statuscod": "PIF",
+			"dor": "09/14/ Y",
+			"dateofservice": "09/14/ Y",
+			"dlp": "09/14/ Y"
+		}
+	],
+	"loadAdjustmentAccounts": [
+		{
+			"clientname": "ERIC",
+			"dor": "06/06/2017",
+			"dateofservice": "06/06/2017",
+			"dlp": "11/29/2017",
+			"balance": 1100867,
+			"aco_principle_balance": 782653.32,
+			"aco_accumulated_interest": 83212.29
+		}
+	],
+	"glm": [
+		{
+			"code": 2120,
+			"name": "Accumulated Interest Payable to Client",
+			"component": "Accumulated Interest",
+			"key": "130"
+		},
+		{
+			"code": 2170,
+			"name": "Attorney Fee Payable to Client",
+			"component": "Attorney",
+			"key": "132"
+		},
+		{
+			"code": 1280,
+			"name": "Commission Receivable from Consumer",
+			"component": "Commission",
+			"key": null
+		},
+		{
+			"code": 2180,
+			"name": "Court Fee Payable to Client",
+			"component": "CourtCost",
+			"key": "396"
+		},
+		{
+			"code": 9000,
+			"name": "Agency Charges",
+			"component": "NSF",
+			"key": null
+		},
+		{
+			"code": 2160,
+			"name": "Other Charges Payable to client",
+			"component": "OtherCharges",
+			"key": "131"
+		},
+		{
+			"code": 2191,
+			"name": "Over Payment Payable",
+			"component": "OverPayment",
+			"key": null
+		},
+		{
+			"code": 2150,
+			"name": "Penalty Payable to Client",
+			"component": "Penalty",
+			"key": "695"
+		},
+		{
+			"code": 2100,
+			"name": "Principal Balance Payable to Client",
+			"component": "Principle",
+			"key": "128"
+		},
+		{
+			"code": 2110,
+			"name": "Referred Interest Payable to Client",
+			"component": "ReferredInterest",
+			"key": "129"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: "ChatBot"
+  description: >- 
+  Chat bot using Spring Boot for users to get more information about previous and upcoming interviews using web socket
+basePath: /
+schemes:
+- http
+- https
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  /user/session:
+    get:
+      summary: To get the user session id
+      responses:
+        200:
+          description: returns the sessioon Id
+  /{id}:   
+    post:
+      description: >- 
+        Send message to the bot and fetch the user records from MongoDB.
+      summary: To post a question to bot
+      parameters:
+        - name: id
+          in: query
+          required: true
+          type: string
+          description: Message to the bot.
+      responses:
+        200:
+          description: If the message is not empty, then the response will be "Success".
+        204:
+          description: If the message is empty, then the response will be "Message is Empty".
+
+definitions:
+  message:
+    type: object
+    properties:
+      userid:
+        type: string
+        description: To fetch the user details against the user id  in MongoDB
+      message:
+        type: string
+        description: The Message event takes place when the server sends some data.
+    required:
+      - userid
+      - message

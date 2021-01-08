@@ -1,0 +1,39 @@
+{
+	"text": {
+		"x": 7,
+		"y": 122,
+		"width": 482,
+		"height": 77
+	},
+	"country": {
+		"x": 624,
+		"y": 114,
+		"width": 389,
+		"height": 83
+	},
+	"name": {
+		"x": 10,
+		"y": 201,
+		"width": 715,
+		"height": 77
+	},
+	"fatherName": {
+		"x": 15,
+		"y": 304,
+		"width": 731,
+		"height": 72
+	},
+	"dateOfBirth": {
+		"x": 327,
+		"y": 391,
+		"width": 225,
+		"height": 59
+	},
+	"accountNumber": {
+		"x": 8,
+		"y": 503,
+		"width": 383,
+		"height": 85
+	}
+}
+	

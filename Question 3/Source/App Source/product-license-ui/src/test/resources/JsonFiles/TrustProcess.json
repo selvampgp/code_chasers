@@ -1,0 +1,269 @@
+{
+  "trustProcess": {
+    "trpClientIds": 11,
+    "trpTrustFrequencyId": {
+      "lookupKey": 45,
+      "lookupType": "Trust Frequency",
+      "lookupTypeDescription": "Trust Frequency",
+      "lookupValue": "Daily",
+      "status": "Y"
+    },
+    "trpClientFormula": {
+      "lookupKey": 44,
+      "lookupType": "Trust Formula",
+      "lookupTypeDescription": "Trust Formula",
+      "lookupValue": "Gross Remit",
+      "status": "Y"
+    },
+    "trpTrustBalanceId": null,
+    "remitType": "Y",
+    "trpTrustAmount": -22,
+    "trpDeductedAmount": null,
+    "trpTrustConsiderDp": null,
+    "trpTrustConsiderDpBkp": null,
+    "trpTrustAccount": null,
+    "trpChequeNo": null,
+    "trpInvoiceNumber": null,
+    "trpTrustProcessedBy": "mahitha",
+    "trpTrustDate": "2018-06-01",
+    "trpTrustBatchNumber": 2342,
+    "isRevTrans": "Y",
+    "trpStatus": {
+      "lookupKey": 474,
+      "lookupType": "TrustProcessStatus",
+      "lookupTypeDescription": "TrustProcessStatus",
+      "lookupValue": "Processed",
+      "status": "Y"
+    },
+    "entryStatus": "R",
+    "dpFlag": "N",
+    "trustViewDate": "2018-06-01",
+    "masFlag": null,
+    "trpTrustPaymentType": {
+      "lookupKey": 2732,
+      "lookupType": "TransactionType",
+      "lookupTypeDescription": "TransactionType",
+      "lookupValue": "All Transactions",
+      "status": "Y"
+    },
+    "trustComment": "Client # :11 Non-dp (Trust Amt : 22.0, Commission : 2.87 )  Dp ( trust Amt :22.0, Commission : 0.0 ) Final Processed Amt : 22.0 and  Adjustment : -0.0 , Processed Commission : 2.87 and Comm Adjustment : -0.0 and considerDpAdjust : 0.0, Payment Type : [], trustGroup : [], transaction Type : [], remit Type : [], Payment Ids DP : (1328038,1328039,1328040,1328041,1328052,1328053,1328054,1328055), payment Ids Non DP : (1328038,1328039,1328040,1328041,1328052,1328053,1328054,1328055)",
+    "trpPublishFlag": null,
+    "trpVerifiedBy": null,
+    "trpVerifiedDateTime": null,
+    "dpReverseFlag": "N",
+    "overViewStatus": null
+  },
+  "trustTempTable": {
+    "tempPatIds": "226588",
+    "trustBatch": 2342,
+    "tempFlag": "Y",
+    "trustStatus": "N",
+    "trustValidateDate": "2018-06-01"
+  },
+  "auditTrail": {
+    "tableName": "pat_payment_transaction",
+    "tablePrimaryKey": 226588,
+    "propertyName": "trustBatchNumber",
+    "columnName": "pat_trust_batch_no",
+    "oldValue": "2342",
+    "remark": "Transaction removed from Trust",
+    "user": {
+      "userId": 1238,
+      "username": "premseth",
+      "displayName": "premseth"
+    },
+    "entityName": "PaymentTransaction"
+  },
+  "client": {
+    "clientId": 20682,
+    "companyOrIndividual": "Company",
+    "firstName": "V35EC",
+    "facilityName": {
+      "parent": 20000,
+      "name": "V35EC",
+      "open": "N",
+      "active": "N",
+      "level": 1,
+      "id": 20682
+    },
+    "corporate": {
+      "parent": 20000,
+      "name": "V35EC",
+      "open": "N",
+      "active": "N",
+      "level": 1,
+      "id": 20682
+    },
+    "corporateId": 20682,
+    "parentId": {
+      "parent": -1,
+      "name": "ORCA ARM",
+      "open": "N",
+      "active": "N",
+      "level": 0,
+      "id": 20000
+    },
+    "nameOnConsumerLetter": "Exclusive Letter",
+    "businessClassIdRef": 44,
+    "businessClassId": {
+      "generalLookupId": 319,
+      "lookupType": "Business Class",
+      "lookupTypeDescription": "Business Class",
+      "lookupKey": 44,
+      "lookupValue": "GOV OREGON (DAS) - COMMERCIAL-31",
+      "status": "Y"
+    },
+    "legalAssignmentFile": "N",
+    "agreementAttached": "N",
+    "agreementAttachedReason": "",
+    "standardItemizationReason": "",
+    "startStatusCode": {
+      "accountStatusId": 143,
+      "statusCode": "ACH",
+      "statusDescription": "AUTO PAY PLAN",
+      "accountNumber": 0,
+      "statusGroup": {
+        "generalLookupId": 25,
+        "lookupType": "AccountStatusGroup",
+        "lookupTypeDescription": "Active",
+        "lookupKey": 297,
+        "lookupValue": "Active",
+        "status": "Y"
+      },
+      "statusGroupRef": "297",
+      "activeFlag": "Y",
+      "editFlag": "Y",
+      "selectFlag": "Y",
+      "restrictPayment": "N",
+      "publicVisibleStatus": "Y"
+    },
+    "startStatusCodeRef": "ACH",
+    "trustFormulaId": {
+      "lookupKey": 44,
+      "lookupId": 10,
+      "lookupType": "Trust Formula",
+      "lookupTypeDescription": "Trust Formula",
+      "lookupValue": "Gross Remit",
+      "status": "Y"
+    },
+    "trustFormulaIdRef": 44,
+    "trustGroup": {
+      "generalLookupId": 676,
+      "lookupType": "TrustGroup",
+      "lookupTypeDescription": "TrustGroup",
+      "lookupKey": 2720,
+      "lookupValue": "Checks, with special instructions #2 (Neg Trust do NOT Adj)",
+      "status": "Y"
+    },
+    "trustBalanceId": {
+      "lookupKey": 41,
+      "lookupType": "Trust Balance",
+      "lookupTypeDescription": "Trust Balance",
+      "lookupValue": "Consider DP Commission",
+      "status": "Y"
+    },
+    "trustGroupRef": 2720,
+    "achRemit": "Y",
+    "chargeInterest": "Y",
+    "splitInterest": "N",
+    "interestType": {
+      "lookupKey": 69,
+      "lookupId": 13,
+      "lookupType": "InterestType",
+      "lookupTypeDescription": "Interest Type",
+      "lookupValue": "DOR",
+      "status": "Y"
+    },
+    "unit": {
+      "unitId": 7,
+      "unitName": "06",
+      "unitDescription": "SAMARITAN OUTBOUND 06",
+      "phoneNumber": "",
+      "unitActive": "Y",
+      "unitEditedBy": "1330",
+      "unitEditedTime": 1519640442000,
+      "configurationId": 89,
+      "unitType": "Collector",
+      "unitTypeRef": "Collector"
+    },
+    "unitRef": "7",
+    "allocationPriority": {
+      "lookupKey": 74,
+      "lookupId": 14,
+      "lookupType": "Payment Allocation Priority",
+      "lookupTypeDescription": "Payment Allocation Priority",
+      "lookupValue": "2",
+      "status": "Y"
+    },
+    "rolloverFlag": "N",
+    "customMergeDetail": "",
+    "compliance501": "N",
+    "creditReportFlag": "N",
+    "creditInquiryFlag": "N",
+    "partialPaymentReportFlag": "N",
+    "allowCreditcard": "N",
+    "allowChecks": "N",
+    "dpDisbursement": "N",
+    "tieredCriteria": "",
+    "paymentGuidelines": "",
+    "authorizationtosue": "N",
+    "consumerContractFlag": "N",
+    "scoring": "N",
+    "considerAccountClosed": "N",
+    "overWriteConsumer": "Y",
+    "overWriteConsumerAddress": "Y",
+    "internalClient": {
+      "lookupKey": 148,
+      "lookupId": 32,
+      "lookupType": "InternalClientType",
+      "lookupTypeDescription": "InternalClientType",
+      "lookupValue": "Own Client",
+      "status": "Y"
+    },
+    "clientType": "Ex",
+    "consumerPortalVisibleFlag": "Y",
+    "iscorporatesummaryrequired": "N",
+    "overpaymentremit": {
+      "generalLookupId": 684,
+      "lookupType": "OverPaymentByConsumer",
+      "lookupTypeDescription": "Remit to Client",
+      "lookupKey": 2765,
+      "lookupValue": "Remit to Client",
+      "status": "Y"
+    },
+    "overpaymentremitRef": 2765,
+    "overPaymentByClient": {
+      "generalLookupId": 680,
+      "lookupType": "OverPaymentByClient",
+      "lookupTypeDescription": "Remit to Client",
+      "lookupKey": 2748,
+      "lookupValue": "Remit to Client",
+      "status": "Y"
+    },
+    "isCorporate": "Y",
+    "isPriorityOrder": true,
+    "isVisibilityAllowedinCtools": "Y",
+    "deductARFromTrust": "Y",
+    "itemizationAttached": "N"
+  },
+  "systemGlobalSettings": {
+    "primaryId": 119,
+    "key": "DefaultGeneralTrustAccount",
+    "value": "1100014451073 ",
+    "description": "DefaultGeneralTrustAccount",
+    "area": "Special Trust Allocation",
+    "userName": "admin",
+    "isSecured": "N",
+    "isAllowedToEdit": "N"
+  },
+  "invoiceFeesBreakups": {
+    "invoiceNumber": "501",
+    "invoiceAmount": 19.15,
+    "pmtType": "Adjustment",
+    "invoiceNote": "Amount adjusted in Trust (Trust # : 1339) ",
+    "receiveDate": "2018-01-02",
+    "receiveBy": "ela",
+    "reverseFlag": "N",
+    "adjustedTrustId": 1339
+  }
+}

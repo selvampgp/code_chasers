@@ -1,0 +1,280 @@
+{
+	"patAllocationEntries": [
+		{
+			"paymentId": {
+				"paymentDescription": "Payment initiated",
+				"payAmount": 200,
+				"paymentDate": 1525285800000,
+				"nameonCard": "Alexander, Smith",
+				"reqDate": "2018-05-03 09:53:17",
+				"userId": {
+					"userId": 3509,
+					"username": "deena   "
+				},
+				"paymentType": {
+					"generalLookupId": 46,
+					"lookupType": "PaymentType",
+					"lookupTypeDescription": "CH",
+					"lookupKey": 256,
+					"lookupValue": "CH",
+					"status": "Y"
+				},
+				"consumerId": {
+					"consumerId": 20022,
+					"sendLetterFlag": "N",
+					"consumerOverWriteAddress": false
+				},
+				"consumerID": 20022,
+				"paymentStatus": "N",
+				"allocationStatus": "Y",
+				"autoAllocation": "N",
+				"reportStatus": {
+					"lookupKey": 473
+				},
+				"remarks": "",
+				"payerName": "Alexander, Smith",
+				"addressLine1": "1042 W CAMBRIDGE AVE",
+				"addressLine2": "",
+				"state": {
+					"stateId": 5
+				},
+				"city": {
+					"cityId": 27763
+				},
+				"country": {
+					"countryId": 227
+				},
+				"zipCode": "932774621",
+				"unitId": 5,
+				"sourceType": "MAP",
+				"recieptRequested": "N"
+			},
+			"clientId": {
+				"clientId": 20673
+			},
+			"clientIds": 20673,
+			"consumer": {
+				"consumerId": 20022,
+				"consumerOverWriteAddress": false
+			},
+			"consumerId": 20022,
+			"accountOpenId": {
+				"accountnumber": 65482,
+				"clientId": 20673,
+				"consumerID": 20022,
+				"unitId": 5,
+				"clientcode": {
+					"clientId": 20674,
+					"trustFormulaIdRef": 43
+				},
+				"referredDate": "2015-02-09",
+				"principleBalance": 61800.74,
+				"statusCodeRef": "ACH",
+				"statusCodeWithPaymentMade": "N",
+				"clientTrustFormula": 43,
+				"account": false
+			},
+			"accountId": 65482,
+			"accountUnitId": 5,
+			"principalBalance": 61800.74,
+			"interst": 1.93,
+			"commision": 55.42,
+			"commisssionOnInterest": 0.77,
+			"commissionAccumulatedInterest": 0,
+			"otherCharges": 5.34,
+			"commOnotherCharges": 0.79,
+			"commissionOnCourt": 0.48,
+			"commissionAttorney": 0.07,
+			"reqUser": "deena   ",
+			"reqDate": 1525321398195,
+			"remarks": "Testing",
+			"collectorNumber": "3509",
+			"principal": 184.74,
+			"courtCost": 2.54,
+			"attorneyFee": 3.4,
+			"overPayment": 0,
+			"nsfCharge": 0,
+			"penality": 2.05,
+			"commOnPenality": 0.39,
+			"paymentDate": 1525285800000,
+			"paymentType": "OT",
+			"trustFormulatId": 43,
+			"accumulatedInterest": 0,
+			"approvalFlag": "Y",
+			"trustConsiderFlag": "Y",
+			"masFlag": "N",
+			"ctVerificatioFLag": "N",
+			"commisionOnInclusiveFLag": "N",
+			"commisssionOnInterestInclusiveFLag": "N",
+			"commissionOnotherChargesInclusiveFLag": "N",
+			"commissionOnAccumulatedInterestInclusiveFLag": "N",
+			"commissionOnCourtCostInclusiveFLag": "N",
+			"commissionOnAttorneyInclusiveFLag": "N",
+			"commissionOnPenalityInclusiveFLag": "N",
+			"specialTrustAllocation": "N",
+			"houseFlag": "N",
+			"accountStatusCode": {
+				"statusCode": "ACH"
+			},
+			"principalcommPerc": 30,
+			"interestcommPerc": 40,
+			"otherchargescommPerc": 14.87,
+			"courtcostcommPerc": 19,
+			"attorneycommPerc": 2.1,
+			"accumulatedinterestcommPerc": 0,
+			"penalitycommPerc": 19.1,
+			"payAmount": 200,
+			"commsionSchemeDetails": "{\"128\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"129\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"131\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"132\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"396\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"695\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"}}"
+		}
+	],
+	"accountupdate": {
+		"expectedCommission": 55.42,
+		"commissionOnAttorneyFees": 0.07,
+		"commissionOnCourtCost": 0.48,
+		"principleBalance": 184.74,
+		"courtCost": 2.54,
+		"otherCharges": 5.34,
+		"penalty": 2.05,
+		"expectedCommissionOnOtherCharges": 0.79,
+		"commissionOnAccumulatedInterest": 0,
+		"commOnPenality": 0.39,
+		"accumlatedInterest": 0,
+		"expectedCommissionOnInterest": 0.77,
+		"interest": 1.93,
+		"attorneyFee": 3.4
+	},
+	"user": {
+		"userId": 3509,
+		"username": "deena   "
+	},
+	"paymentDetailsWithAccNCon": {
+		"commissionOnPenaltyInclusiveFlag": "N",
+		"clientId": 20673,
+		"principleBalance": 61985.48,
+		"commissionOnCourtCostInclusiveFlag": "N",
+		"totalBalance": 67107.74,
+		"commissionOnAttorneyInclusiveFlag": "N",
+		"consumerId:20022, trustFormulaIdRef": 43,
+		"commissionOnOtherChargesInclusiveFlag": "N",
+		"commissionOnAccumulatedInterestInclusiveFlag": "N",
+		"commissionOnInterestInclusiveFlag": "N",
+		"commissionOnPrincipalInclusiveFlag": "N",
+		"unitId": 5
+	},
+	"patReverseData": {
+		"patId": 3,
+		"paymentIdRef": 26078954,
+		"paymentId": {
+			"paymentDescription": "Payment initiated",
+			"payAmount": 200,
+			"paymentDate": 1525285800000,
+			"nameonCard": "Alexander, Smith",
+			"reqDate": "2018-05-03 09:53:17",
+			"userId": {
+				"userId": 3509,
+				"username": "deena   "
+			},
+			"paymentType": {
+				"generalLookupId": 46,
+				"lookupType": "PaymentType",
+				"lookupTypeDescription": "CH",
+				"lookupKey": 256,
+				"lookupValue": "CH",
+				"status": "Y"
+			},
+			"consumerId": {
+				"consumerId": 20022,
+				"sendLetterFlag": "N",
+				"consumerOverWriteAddress": false
+			},
+			"consumerID": 20022,
+			"paymentStatus": "N",
+			"allocationStatus": "Y",
+			"autoAllocation": "N",
+			"reportStatus": {
+				"lookupKey": 473
+			},
+			"remarks": "",
+			"payerName": "Alexander, Smith",
+			"addressLine1": "1042 W CAMBRIDGE AVE",
+			"addressLine2": "",
+			"state": {
+				"stateId": 5
+			},
+			"city": {
+				"cityId": 27763
+			},
+			"country": {
+				"countryId": 227
+			},
+			"zipCode": "932774621",
+			"unitId": 5,
+			"sourceType": "MAP",
+			"recieptRequested": "N"
+		},
+		"clientIds": 20673,
+		"accountId": 65482,
+		"accountUnitId": 5,
+		"consumer": {
+			"consumerId": 20022,
+			"sendLetterFlag": "N",
+			"consumerOverWriteAddress": false
+		},
+		"principalBalance": -61800.74,
+		"interst": -1.93,
+		"commision": -55.42,
+		"commisssionOnInterest": -0.77,
+		"commOnotherCharges": -0.79,
+		"commissionAccumulatedInterest": 0,
+		"commissionOnCourt": -0.48,
+		"commissionAttorney": -0.07,
+		"commOnPenality": -0.39,
+		"otherCharges": -5.34,
+		"principal": -184.74,
+		"attorneyFee": -3.4,
+		"courtCost": -2.54,
+		"accumulatedInterest": 0,
+		"differenceValue": 0,
+		"overPayment": 0,
+		"fixedFee": 0,
+		"nsfCharge": 0,
+		"penality": -2.05,
+		"reqUser": "deena   ",
+		"reqDate": "2018-05-04",
+		"authUser": "deena   ",
+		"authDate": "2018-05-04",
+		"collectorNumber": "3509",
+		"paymentDate": "2018-05-04",
+		"paymentType": "OT",
+		"trustFormulatId": 43,
+		"ctVerificatioFLag": "R",
+		"approvalFlag": "Y",
+		"trustConsiderFlag": "N",
+		"balancePriorPayment": 66707.74,
+		"balanceAfterReversal": 66907.74,
+		"masFlag": "N",
+		"commisionOnInclusiveFLag": "N",
+		"commisssionOnInterestInclusiveFLag": "N",
+		"commissionOnotherChargesInclusiveFLag": "N",
+		"commissionOnAccumulatedInterestInclusiveFLag": "N",
+		"commissionOnCourtCostInclusiveFLag": "N",
+		"commissionOnAttorneyInclusiveFLag": "N",
+		"commissionOnPenalityInclusiveFLag": "N",
+		"specialTrustAllocation": "N",
+		"houseFlag": "N",
+		"nsfChargeStatus": "N",
+		"accountStatusCode": {
+			"statusCode": "ACH"
+		},
+		"statusCodeAfterPayment": "ACH",
+		"principalAfterPayment": 61800.74,
+		"principalcommPerc": 30,
+		"interestcommPerc": 40,
+		"otherchargescommPerc": 14.87,
+		"courtcostcommPerc": 19,
+		"attorneycommPerc": 2.1,
+		"accumulatedinterestcommPerc": 0,
+		"penalitycommPerc": 19.1,
+		"commsionSchemeDetails": "{\"128\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"129\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"131\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"132\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"396\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"},\"695\":{\"filterName\":\"Default\",\"code\":\"23\",\"name\":\"20673_Adventist Medical Center\"}}"
+	}
+}

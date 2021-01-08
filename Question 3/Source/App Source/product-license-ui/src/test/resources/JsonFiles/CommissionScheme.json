@@ -1,0 +1,36 @@
+{
+	"CommissionScheme": [
+		{
+			"schemeCode": "1208",
+			"schemeName": "CommissionSchemeWithInclusiveOverride",
+			"commissionMethod": {
+				"lookupKey": "86"
+			},
+			"isDefault": "Y"
+		},
+		{
+			"schemeCode": "1209",
+			"schemeName": "CommissionSchemeWithExclusiveOverride",
+			"commissionMethod": {
+				"lookupKey": "86"
+			},
+			"isDefault": "Y"
+		},
+		{
+			"schemeCode": "1211",
+			"schemeName": "DefaultCommissionSchemeWithExclusive",
+			"commissionMethod": {
+				"lookupKey": "86"
+			},
+			"isDefault": "Y"
+		},
+		{
+			"schemeCode": "1212",
+			"schemeName": "DefaultCommissionSchemeWithExclusive",
+			"commissionMethod": {
+				"lookupKey": "86"
+			},
+			"isDefault": "Y"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+swagger: "2.0"
+info:
+  description: Anonymous api documentation
+  version: 1.0.0
+  title: anonymous API
+host: virtserver.swaggerhub.com
+# basePath: /v3 
+schemes:
+- https
+- http
+paths:
+  /status/:
+    get:
+      tags:
+      - Status
+      summary: To return API hit status to test anonymous BOT
+      description: 'To return API hit status to test anonymous BOT'
+      responses:
+        200:
+          description: Anonymous details
+          schema:
+            type: boolean
+          examples: 
+            status: true
+
+        500:
+          description: exception while getting status
+        400:
+          description: when the system identifies the request is from BOT
+        429:
+          description: when the system identifies the request is over than the configured limit
+          
+
+# Added by API Auto Mocking Plugin
+basePath: /API/Anonymous/1.0

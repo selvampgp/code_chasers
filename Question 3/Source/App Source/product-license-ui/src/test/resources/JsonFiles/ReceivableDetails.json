@@ -1,0 +1,91 @@
+{
+	"receivableDetails": {
+		"clientIds": 20682,
+		"paidAmount": 0,
+		"receivedAmount": 0,
+		"considerAdjustment": null,
+		"considerAdjustmentBkp": null,
+		"invoiceNumber": null,
+		"receivedBy": null,
+		"receivedDate": "2018-06-01",
+		"trustId": 2342,
+		"isReceived": "N",
+		"trustStatus": "N",
+		"type": null,
+		"group": null,
+		"rcvStatus": {
+			"lookupKey": 474,
+			"lookupType": "TrustProcessStatus",
+			"lookupTypeDescription": "TrustProcessStatus",
+			"lookupValue": "Processed",
+			"status": "Y"
+		},
+		"dpFlag": "N",
+		"processType": {
+			"lookupKey": 2732,
+			"lookupType": "TransactionType",
+			"lookupTypeDescription": "TransactionType",
+			"lookupValue": "All Transactions",
+			"status": "Y"
+		},
+		"negativeTrustflag": "N",
+		"receiveHistory": null,
+		"masSubmitStatus": null,
+		"corporateFlag": "N",
+		"adjustedTrustIds": null,
+		"description": null,
+		"isManualInvoice": "N"
+	},
+	"generalLookup": {
+		"generalLookupId": 328,
+		"lookupType": "Invoice Fee Type ",
+		"lookupTypeDescription": "Invoice Fee Type",
+		"lookupKey": 397,
+		"lookupValue": "PAYMENT CENTER MONTHLY SERV FE",
+		"status": "Y"
+	},
+	"user": {
+		"userId": 1238,
+		"username": "premseth",
+		"displayName": "premseth"
+	},
+	"invoiceFeesBreakupDetails": {
+		"invoiceNumber": {
+			"receivableId": 2720,
+			"clientId": {
+				"clientId": 20682
+			},
+			"clientIds": 20682,
+			"paidAmount": 0,
+			"receivedAmount": 123,
+			"considerAdjustment": 0,
+			"considerAdjustmentBkp": 0,
+			"invoiceNumber": "799",
+			"receivedBy": "premseth",
+			"receivedDate": 1528137000000,
+			"isReceived": "N",
+			"trustStatus": "N",
+			"rcvStatus": {
+				"generalLookupId": null,
+				"lookupType": null,
+				"lookupTypeDescription": null,
+				"lookupKey": 474,
+				"lookupValue": null,
+				"status": null
+			},
+			"dpFlag": "N",
+			"notes": "af",
+			"description": "",
+			"isManualInvoice": "Y"
+		},
+		"feesType": {
+			"generalLookupId": 328,
+			"lookupType": "Invoice Fee Type ",
+			"lookupTypeDescription": "Invoice Fee Type",
+			"lookupKey": 397,
+			"lookupValue": "PAYMENT CENTER MONTHLY SERV FE",
+			"status": "Y"
+		},
+		"feesAmount": 0
+	}
+}

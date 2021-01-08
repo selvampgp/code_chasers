@@ -1,0 +1,55 @@
+{
+	"payment": {
+		"paymentDescription": "Payment initiated",
+		"scheduledPayAmount": 20,
+		"nameonCard": "Alexander, Smith",
+		"reqDate": "2018-04-13 16:08:16",
+		"paymentType": {
+			"lookupKey": 256
+		},
+		"paymentFreqType": {
+			"lookupKey": 293
+		},
+		"consumerId": {
+			"consumerId": 20022,
+			"sendLetterFlag": "N",
+			"consumerOverWriteAddress": false
+		},
+		"consumerID": 20022,
+		"allocationStatus": "N",
+		"autoAllocation": "Y",
+		"reportStatus": {
+			"lookupKey": 473
+		},
+		"remarks": "",
+		"payerName": "Alexander, Smith",
+		"addressLine1": "1042 W CAMBRIDGE AVE",
+		"addressLine2": "",
+		"state": {
+			"stateId": 5
+		},
+		"city": {
+			"cityId": 27763
+		},
+		"country": {
+			"countryId": 227
+		},
+		"zipCode": "932774621",
+		"sourceType": "MAP",
+		"recieptRequested": "N"
+	},
+	"account": [
+		{
+			"accountnumber": 65482
+		},
+		{
+			"accountnumber": 65482
+		}
+	],
+	"totalDue": {
+		"totalBalance": 20000,
+		"interest": 10,
+		"clientInterst": 5
+	},
+	"interestRate": "10.0"
+}

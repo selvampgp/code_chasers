@@ -1,0 +1,104 @@
+{
+	"repayPlan": [
+		{
+			"advanceAmount": 0,
+			"paidamount": 500.0,
+			"paymentAmount": 28351.15,
+			"paymentDate": 1525717800000,
+			"paymentSchedulerId": {
+				"consumerDemographic": {
+					"consumerId": 20024
+				},
+				"coupon": "N",
+				"createdUser": 3509,
+				"frequency": {
+					"generalLookupId": 58,
+					"lookupKey": 293,
+					"lookupType": "paymentFrequency",
+					"lookupTypeDescription": "Monthly Payment",
+					"lookupValue": "M",
+					"status": "Y"
+				},
+				"id": 1,
+				"payAmt": 142755.77,
+				"payeeAddress1": "10519 645TH AVE",
+				"payeeAddress2": "",
+				"payeeCity": {
+					"cityId": 27467
+				},
+				"payeeName": "Aiden,Anderson",
+				"payeeState": {
+					"stateId": 24
+				},
+				"payeeZipCode": "56446",
+				"paymentType": {
+					"generalLookupId": 46,
+					"lookupKey": 502,
+					"lookupType": "PaymentType",
+					"lookupTypeDescription": "ACH",
+					"lookupValue": "ACH",
+					"status": "Y"
+				},
+				"scheduledAmt": 285511.53,
+				"startDate": "2018-05-08",
+				"zeroInterest": "Y"
+			},
+			"paymentStatus": {
+				"lookupKey": 461
+			}
+		}
+	],
+	"planByDate": {
+		"prp_pas_id": 854,
+		"prp_payment_date": "2017-09-25",
+		"prp_payment_amount": 40.00,
+		"prp_payment_status": 461,
+		"prp_advance_amount": 0.00,
+		"prp_payment_createtime": "2017-08-22 11:28:45",
+		"prp_paid_amount": 0.00
+	},
+	"getConsumer": [
+		{
+			"consumerId": 10032775,
+			"schedulerId": 1157,
+			"firstName": "Aiden",
+			"lastName": "Anderson"
+		},
+		{
+			"consumerId": 10032843,
+			"schedulerId": 1196,
+			"firstName": "Alexander",
+			"lastName": "Smith"
+		}
+	],
+	"schedularCount": [
+		{
+			"aDate": "2018-06-01",
+			"COUNT": 19
+		}
+	],
+	"nextPaymentDate": {
+		"id": 755175,
+		"paymentSchedulerIdRef": 755,
+		"paymentDate": "2018-06-05",
+		"paymentAmount": 100.0,
+		"paymentStatus": {
+			"generalLookupId": 333,
+			"lookupKey": 461,
+			"lookupType": "PaymentStatus",
+			"lookupTypeDescription": "paymentStatus",
+			"lookupValue": "Pending",
+			"status": "Y"
+		},
+		"advanceAmount": 0.00,
+		"paidamount": 0.00
+	},
+	"repaymentPlan": {
+		"startDate": "2017-08-25",
+		"date": "2017-09-05",
+		"pay": 291.01,
+		"iteration": 9,
+		"paymentType": "502",
+		"frequency": "paymentStatus"
+	}
+}
