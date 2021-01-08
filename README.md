@@ -5,7 +5,7 @@ includes <br>
 #Automation testing source <br>
 #Process flow diagram <br>
 #Sequence diagram <br>
-#feature files <br>
+#Feature files <br>
 #Test results <br>
-#Video
+#Video<br>
  
