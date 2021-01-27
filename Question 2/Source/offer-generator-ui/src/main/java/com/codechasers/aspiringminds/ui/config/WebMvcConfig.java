@@ -41,7 +41,7 @@ import org.thymeleaf.templateresolver.TemplateResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(value = { "com.art.aspiringminds.core","com.art.aspiringminds.ui" }, useDefaultFilters = true, 
+@ComponentScan(value = { "com.codechasers.aspiringminds.core","com.codechasers.aspiringminds.ui" }, useDefaultFilters = true, 
 includeFilters = 
 @ComponentScan.Filter(value = org.springframework.stereotype.Controller.class, 
 type = FilterType.ANNOTATION))
